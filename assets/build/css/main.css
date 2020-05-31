@@ -53,14 +53,24 @@ a {
 
 header {
   background-color: #5089a3;
-  padding: 0.3125rem; }
+  padding: 0.3125rem;
+  display: flex;
+  justify-content: space-between; }
   header img {
     width: 7.5rem; }
   header nav {
     display: none; }
+    header nav .nav-wrap {
+      display: flex; }
+    header nav a {
+      color: #fff; }
 
 footer {
   background-color: #ff0000; }
+
+@media only screen and (min-width: 1440px) {
+      header nav {
+        display: block; } }
 
 
 /*# sourceMappingURL=main.css.map*/

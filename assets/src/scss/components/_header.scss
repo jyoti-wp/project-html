@@ -2,12 +2,27 @@ header {
 	// Mobile
 	background-color: $teel;
 	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+
 	img {
 		width: 120px;
 	}
 
 	nav {
 		display: none;
+
+		@media only screen and ( min-width: $desktop ) {
+			display: block;
+		}
+
+		.nav-wrap {
+			display: flex;
+		}
+
+		a {
+			color: $white;
+		}
 	}
 
 }
