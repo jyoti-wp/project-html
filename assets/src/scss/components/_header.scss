@@ -1,12 +1,14 @@
 header {
 	// Mobile
-	background-color: $teel;
+	background-image: url(//assets/images/header/bg-slide-1.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	padding: 5px;
 	display: flex;
 	justify-content: space-between;
-
-	img {
-		width: 120px;
+	background-color: $white;
 	}
 
 	nav {
@@ -14,6 +16,7 @@ header {
 
 		@media only screen and ( min-width: $desktop ) {
 			display: block;
+
 		}
 
 		.nav-wrap {
@@ -21,7 +24,7 @@ header {
 		}
 
 		a {
-			color: $white;
+			color: $black;
 		}
 	}
 
