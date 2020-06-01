@@ -52,7 +52,11 @@ a {
   text-decoration: none; }
 
 header {
-  background-color: #5089a3;
+  background-image: url(//assets/images/header/bg-slide-1.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 0.3125rem;
   display: flex;
   justify-content: space-between; }
