@@ -1,20 +1,203 @@
-footer {
-	background-color: #26272c;
-    padding: 10px;
-    color: white;
-}
+.footer {
+    background-color: #2d313c;
+    padding-left: 15px;
+    padding-right: 15px;
 
-.wrapper{
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1440px;
-	font-size: 12px;
-    line-height: 20px;
-}
+    .text-area{
 
-.text-area{
-	font-size: 16px;
-    line-height: 1.6;
-    font-family: sans-serif;
-    color: #a1a1a1;
-}
+    }
+    .widget-text-area {
+        padding-top: 100px;
+
+    }
+    .text-area h5 {
+        color: #fff;
+        position: relative;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: inherit;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+    }
+
+    .text-area h5::after {
+        position: absolute;
+        bottom: -2px;
+        display: block;
+        width: 100%;
+        height: 1px;
+        text-align: justify;
+        content: "";
+        background: linear-gradient(90deg,#26d0ce,#1a2980);
+    }
+
+    .text-area p {
+        font-size: 14px;
+        line-height: 1.9em;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .social-media-footer{
+        padding-top: 0.9375rem;
+        padding-bottom: 2.25rem;
+    }
+
+    .social-media-footer a{
+
+    }
+
+    .social-media-footer a i{
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: #26d0ce;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 3px;
+        transition: all .3s;
+        color: white;
+    }
+
+    .recent-post-area {
+
+    }
+
+    .recent-post-area h6{
+        color: #fff;
+        padding-bottom: 10px;
+        position: relative;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .recent-post-area h6::after{
+        position: absolute;
+        bottom: -2px;
+        display: block;
+        width: 100%;
+        height: 1px;
+        text-align: justify;
+        content: "";
+        background: linear-gradient(90deg,#26d0ce,#1a2980);
+    }
+
+    .image-area-section {
+        display: flex;
+        margin-top: 10px;
+
+    }
+
+    .new-trend-area {
+
+    }
+
+    .new-trend-area > a {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: all .25s;
+        background-color: transparent;
+        padding-left: 15px;
+    }
+
+    .post-details {
+
+    }
+
+    .post-details > a{
+        color: #26d0ce;
+        transition: all .25s;
+        font-weight: 600;
+        font-size: 14px;
+        padding-left: 15px;
+    }
+
+    .date-area{
+    
+    }
+
+    .date-area a{
+        color: #8f8f8f;
+        line-height: 12px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    hr {
+        color: rgba(255,255,255,.1);
+        border: 1px solid;
+    }
+
+
+    // useful links area
+
+    .useful-links-area {
+        padding-top: 40px;
+    }
+
+    .useful-links-area h5 {
+        color: #fff;
+        position: relative;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: inherit;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .useful-links-area h5::after {
+        position: absolute;
+        bottom: -2px;
+        display: block;
+        width: 100%;
+        height: 1px;
+        text-align: justify;
+        content: "";
+        background: linear-gradient(90deg,#26d0ce,#1a2980);
+    }
+
+    .useful-links{
+        padding-left: 15px;
+    }
+
+    .useful-links li {
+        position: relative;
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        padding-left: 20px;
+        color: white;
+    }
+
+    .useful-links a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+
+    .useful-links a::before{
+        position: absolute;
+        left: 0;
+        top: 7px;
+        height: 7px;
+        width: 7px;
+        background: #26d0ce;
+        border-radius: 50%;
+        content: '';
+    }
+
+    }

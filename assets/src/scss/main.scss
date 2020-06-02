@@ -4,8 +4,11 @@
 
 // Settings
 @import "settings/reset";
+@import "settings/typography";
 @import "settings/variable";
 @import 'settings/colors';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/home/our-services';
+@import 'common/general';
+

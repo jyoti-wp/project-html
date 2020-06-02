@@ -1,6 +1,5 @@
 header {
-	// Mobile
-	background-image: url(//assets/images/header/bg-slide-1.jpg);
+	// Mobile;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -8,24 +7,29 @@ header {
 	padding: 5px;
 	display: flex;
 	justify-content: space-between;
-	background-color: $white;
+	background-color: $black;
+	
+	img {
+		width: 120px;
 	}
-
 	nav {
 		display: none;
-
-		@media only screen and ( min-width: $desktop ) {
-			display: block;
-
 		}
 
-		.nav-wrap {
+	.nav-wrap {
 			display: flex;
 		}
 
-		a {
-			color: $black;
-		}
+	.nav-list-item {
+
 	}
 
-}
+	.nav-list-item li{
+		
+	}
+
+	.nav-list-item a {
+		color: $white;
+	}
+
+	}
