@@ -1,4 +1,64 @@
 main {
+
+
+    // mobile view
+    .message-area-container {
+
+    }
+
+    .message-area {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-container {
+
+    }
+
+    .main-container h5 {
+        margin-bottom: 8px;
+        font-size: 20px;
+        color: #212121;
+        font-weight: 700;
+        font-family: inherit;
+        text-transform: uppercase;
+
+    }
+
+    .update-contact-form {
+        position: relative;
+        margin-bottom: 50px;
+        background: #fafafa;
+        padding: 40px;
+    }
+
+    input {
+        border: 1px solid #999;
+        padding: 10px;
+        color: #272727;
+        background: #fff;
+        text-transform: capitalize;
+        width: 243px;
+        height: 26px;
+        font-size: 12px;
+    }
+
+    textarea {
+        padding-left: 0;
+        border: 1px solid #999;
+        padding: 10px;
+        color: black;
+        background: #fff;
+        width: 243px;
+        text-transform: capitalize;
+        height: 110px;
+    }
+
+
+
+
+
+
     .get-in-touch-section{
         position: relative;
         min-height: 1px;

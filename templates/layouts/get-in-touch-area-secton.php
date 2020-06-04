@@ -1,4 +1,38 @@
 <main>
+    <div class="message-area-container">
+        <div class="message-area">
+            <div class="main-container">
+                <h5 class="text-area">Leave A Message</h5>
+            </div>
+            <br>
+            <div id="contact-form" class="update-contact-form">
+                <div class="contact-area-form">
+                    <form action="/action_page.php">
+                        <label for="fname"></label><br>
+                        <input type="text" id="fname" name="fname" value="first name"><br>
+                        <label for="lname"></label><br>
+                        <input type="text" id="lname" name="lname" value="last name"><br>
+                        <label for="fname"></label><br>
+                        <input type="text" id="fname" name="fname" value="phone number"><br>
+                        <label for="lname"></label><br>
+                        <input type="text" id="lname" name="lname" value="email"><br>
+                    </form>
+                    <br>
+                </div>
+                <span>
+                    <textarea name="textarea-new" class="text-area-new" aria-invalid="false" placeholder="Message"></textarea>
+                </span>
+                <div class="button">
+                <input type="submit" value="Send message" class="waves-waves-input">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
     <div class="get-in-touch-section">
         <h5 class="text-area">GET IN TOUCH</h5>
         <br>
