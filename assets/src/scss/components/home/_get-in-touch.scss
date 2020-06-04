@@ -1,0 +1,47 @@
+main {
+    .get-in-touch-section{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .get-in-touch-section h5 {
+        margin-bottom: 8px;
+        font-size: 20px;
+        color: #212121;
+        font-weight: 700;
+        font-family: inherit;
+    }
+
+    .get-in-touch-section p {
+        color: #4e4e4e;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .widget-contact ul {
+        list-style: none;
+    }
+
+    .widget-contact ul li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 20px;
+        line-height: 24px;
+        color: #4e4e4e;
+    }
+
+    .widget-contact ul li i {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        color: #26d0ce;
+        font-size: 16px;
+        list-style: none;
+        text-decoration: none;
+
+    }
+
+
+}
