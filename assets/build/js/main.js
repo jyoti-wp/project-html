@@ -86,6 +86,28 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/js/corousel/index.js":
+/*!**********************************!*\
+  !*** ./src/js/corousel/index.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function ($) {
+  $(document).ready(function () {
+    $('.your-class').slick({
+      dots: true,
+      autoplay: true,
+      infinite: true,
+      speed: 100,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  });
+})(jQuery);
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
@@ -97,7 +119,9 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ "./src/scss/main.scss");
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);
-console.warn('Hello');
+/* harmony import */ var _corousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./corousel */ "./src/js/corousel/index.js");
+/* harmony import */ var _corousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_corousel__WEBPACK_IMPORTED_MODULE_1__);
+
 
 
 /***/ }),

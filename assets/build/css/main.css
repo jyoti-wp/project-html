@@ -498,6 +498,11 @@ section a {
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
 
+.slick-dots li.slick-active button:before {
+  height: 0.625rem;
+  width: 0.625rem;
+  color: black; }
+
 @media screen and (min-width: 768px) {
     .footer .main-footer {
       padding: 6.25rem 0;
