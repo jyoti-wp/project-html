@@ -328,7 +328,7 @@ main .message-area {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
 
-main .main-container h5 {
+main .message-area h5 {
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
   color: #212121;
@@ -342,7 +342,7 @@ main .update-contact-form {
   background: #fafafa;
   padding: 2.5rem; }
 
-main input {
+main .form-action-page > input {
   border: 1px solid #999;
   padding: 0.625rem;
   color: #272727;
@@ -360,7 +360,20 @@ main textarea {
   background: #fff;
   width: 15.1875rem;
   text-transform: capitalize;
-  height: 6.875rem; }
+  height: 6.875rem;
+  font-size: 0.75rem; }
+
+main .button > input {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  border-radius: 1.5625rem;
+  margin-bottom: 0;
+  background-color: #26d0ce;
+  color: white;
+  width: 11.25rem;
+  border: none; }
 
 main .get-in-touch-section {
   position: relative;
@@ -378,10 +391,11 @@ main .get-in-touch-section h5 {
 main .get-in-touch-section p {
   color: #4e4e4e;
   line-height: 1.5em;
-  margin-bottom: 1.25rem; }
+  margin-bottom: 2.5rem; }
 
 main .widget-contact ul {
-  list-style: none; }
+  list-style: none;
+  text-decoration: none; }
 
 main .widget-contact ul li {
   position: relative;
@@ -398,6 +412,91 @@ main .widget-contact ul li i {
   font-size: 1rem;
   list-style: none;
   text-decoration: none; }
+
+main .widget-contact ul li a {
+  color: #4e4e4e; }
+
+main .mapouter {
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  overflow: hidden;
+  z-index: 3;
+  padding: 0px;
+  left: 0px;
+  margin-bottom: 3.75rem;
+  text-align: center; }
+
+main {
+  margin-right: 0.9375rem;
+  margin-left: 0.9375rem; }
+  main .headline-section {
+    padding: 6.25rem 0 1.875rem 0px; }
+  main .headline-text-center h2 {
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    color: #212121;
+    font-weight: 700;
+    font-family: inherit;
+    text-align: center;
+    text-transform: uppercase; }
+  main .headline-text-center p {
+    margin: 0.625rem 0;
+    color: #858585;
+    font-family: poppins sans-serif;
+    font-style: italic; }
+  main p::after {
+    top: -0.3125rem;
+    display: inline-block;
+    width: 6.25rem;
+    height: 0.1875rem;
+    background: #26d0ce;
+    background: linear-gradient(90deg, #26d0ce, #1a2980);
+    content: "";
+    margin-top: 1.875rem; }
+
+section .kc-row-container {
+  background-image: url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg); }
+
+section .kc-wrap-columns {
+  background: #1a2980 !important;
+  opacity: .8; }
+
+section .full-update-section {
+  padding: 6.25rem 0px 1.875rem; }
+
+section h2 {
+  font-size: 2.25rem;
+  line-height: 2.875rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white; }
+
+section p {
+  color: #e1e1e1;
+  margin: 0.625rem 0;
+  font-family: "Noto Serif",serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 0.9375rem; }
+
+section p::after {
+  top: 1.6875rem;
+  display: inline-block;
+  width: 6.25rem;
+  height: 0.1875rem;
+  background: #fff;
+  content: ""; }
+
+section .image-container {
+  padding-bottom: 5.125rem;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem; }
+
+section a {
+  display: block;
+  border: 1px solid #eaeaea;
+  margin: 0 0.3125rem; }
 
 @media screen and (min-width: 768px) {
     .footer .main-footer {
@@ -433,9 +532,29 @@ main .widget-contact ul li i {
       padding: 0; }
     .footer .gallery-items-landscape img {
       width: 3.4375rem;
-      height: auto; } }
+      height: auto; }
+  main .message-area-container {
+    display: flex;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem; }
+    main .message-area {
+      width: 65%; }
+    main .get-in-touch-section {
+      width: 33%; }
+  main iframe {
+    width: 100%; }
+      main .headline-text-center p {
+        font-size: 1.25rem;
+        margin-left: 6.875rem; }
+      main p::after {
+        left: -10rem;
+        top: 1.875rem;
+        position: relative;
+        height: 0.25rem; } }
 
 @media screen and (min-width: 1200px) {
+    .footer .main-footer {
+      padding: 9.375rem 0px; }
   .footer .footer-area-grid {
     padding: 0px 6.25rem 0px 6.25rem; }
     .footer .widget-text-area {
@@ -444,7 +563,8 @@ main .widget-contact ul li i {
     .footer .text-area h5 {
       font-size: 1.5rem;
       line-height: 1.5rem;
-      font-weight: 900; }
+      font-weight: 900;
+      padding-bottom: 0.9375rem; }
     .footer .text-area h5::after {
       font-size: 1.5rem;
       line-height: 1.5rem;
@@ -460,29 +580,45 @@ main .widget-contact ul li i {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
     .footer .recent-post-area h6 {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      padding-bottom: 0.9375rem; }
   .footer .image-area img {
     width: 4.6875rem; }
     .footer .new-trend-area > a {
       font-size: 1.125rem;
       font-weight: 700; }
+  .footer .post-details {
+    padding-top: 0.625rem; }
+    .footer .post-details > a {
+      font-size: 1rem; }
+    .footer .date-area a {
+      font-size: 0.875rem;
+      margin-top: -1.125rem;
+      position: absolute;
+      margin-left: 5.625rem; }
     .footer .useful-links-area {
       padding-right: 0.9375rem;
       padding-left: 0.9375rem; }
     .footer .useful-links-area h5 {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      padding-bottom: 0.9375rem; }
     .footer .useful-links li {
-      padding-left: 1.25rem; }
+      padding-left: 1.25rem;
+      margin-bottom: 1.25rem; }
     .footer .useful-links a {
-      font-size: 1rem;
+      font-size: 1.25rem;
       padding-left: 1.25rem; }
+    .footer .useful-links a::before {
+      height: 0.625rem;
+      width: 0.625rem; }
   .footer .media-gallery {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
     .footer .media-gallery h5 {
       padding-right: 0.9375rem;
       padding-left: 0.9375rem;
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      padding-bottom: 0.9375rem; }
     .footer .gallery-items-landscape img {
       height: 7.5rem;
       width: 7.5rem;
@@ -501,9 +637,68 @@ main .widget-contact ul li i {
       line-height: 1.25rem;
       padding-left: 6.875rem;
       font-weight: 500;
-      text-transform: none; }
+      text-transform: none;
+      padding-bottom: 0.9375rem; }
     .wrapper {
-      max-width: 100%; } }
+      max-width: 100%; }
+  main .message-area-container {
+    padding-left: 7.8125rem;
+    padding-right: 7.8125rem;
+    padding-bottom: 5rem; }
+    main .message-area h5 {
+      margin-bottom: 0.5rem;
+      font-size: 1.625rem;
+      line-height: 1.5rem; }
+  main .action-page {
+    display: flex; }
+  main .form-action-page {
+    display: flex; }
+    main .form-action-page > input {
+      width: 24.6875rem;
+      height: 1.875rem;
+      margin-right: 2.0625rem;
+      padding: 0.9375rem;
+      margin-bottom: 1.875rem;
+      margin-left: 0.625rem;
+      font-size: 1.125rem; }
+    main textarea {
+      margin-left: 0.625rem;
+      width: 93%;
+      font-size: 1.5rem; }
+    main .button > input {
+      width: 14.375rem;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      margin-left: 0.625rem;
+      border-radius: 2.1875rem; }
+    main .get-in-touch-section h5 {
+      margin-bottom: 0.9375rem;
+      font-size: 1.625rem;
+      line-height: 1.5rem; }
+    main .get-in-touch-section p {
+      font-size: 1.25rem; }
+    main .widget-contact ul {
+      font-size: 1.25rem; }
+    main .widget-contact ul li {
+      margin-bottom: 1.5625rem;
+      padding-left: 3.125rem; }
+    main .widget-contact ul li i {
+      font-size: 1.5625rem; }
+  main {
+    padding: 4.25rem 0 1.875rem; }
+    main .mapouter {
+      margin-bottom: 1.8125rem;
+      padding-left: 7.1875rem;
+      padding-right: 7.1875rem; }
+      main .headline-text-center h2 {
+        font-size: 3rem; }
+      main .headline-text-center p {
+        font-size: 1.625rem;
+        margin-left: 7.875rem; }
+      main p::after {
+        left: -13rem;
+        top: 1.875rem;
+        width: 8.125rem; } }
 
 
 /*# sourceMappingURL=main.css.map*/

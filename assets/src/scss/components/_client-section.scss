@@ -1,0 +1,65 @@
+section {
+
+
+    .kc-row-container {
+        background-image:url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg);
+
+
+    }
+
+
+    .kc-wrap-columns {
+        background: #1a2980!important;
+        opacity: .8;
+    }
+
+    .full-update-section {
+        padding: 100px 0px 30px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    p{  
+        color: #e1e1e1;
+        margin: 10px 0;
+        font-family: "Noto Serif",serif;
+        font-style: italic;
+        text-align: center;
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
+    p::after {
+        top: 1.6875rem;
+        display: inline-block;
+        width: 6.25rem;
+        height: 0.1875rem;
+        background: #fff;
+        content: "";
+    }
+
+
+    .image-container {
+        padding-bottom: 5.125rem;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+
+
+    .image-container img {
+        
+    }
+
+    a{
+        display: block;
+        border: 1px solid #eaeaea;
+        margin: 0 5px;
+    }
+}
