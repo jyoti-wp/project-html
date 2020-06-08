@@ -455,7 +455,10 @@ main {
     margin-top: 1.875rem; }
 
 section .kc-row-container {
-  background-image: url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg); }
+  background-image: url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%; }
 
 section .kc-wrap-columns {
   background: #1a2980 !important;
@@ -469,7 +472,7 @@ section h2 {
   line-height: 2.875rem;
   text-align: center;
   text-transform: uppercase;
-  color: white; }
+  color: #fff; }
 
 section p {
   color: #e1e1e1;
@@ -488,12 +491,52 @@ section p::after {
   background: #fff;
   content: ""; }
 
-section .image-container {
+section .image-container-one {
   padding-bottom: 5.125rem;
   margin-left: 0.9375rem;
   margin-right: 0.9375rem; }
 
-section a {
+section .image-container-one a {
+  display: block;
+  border: 1px solid #eaeaea;
+  margin: 0 0.3125rem; }
+
+section .image-container-two {
+  display: none; }
+
+section .image-container-two a {
+  display: block;
+  border: 1px solid #eaeaea;
+  margin: 0 0.3125rem; }
+
+section .image-container-three {
+  display: none; }
+
+section .image-container-three a {
+  display: block;
+  border: 1px solid #eaeaea;
+  margin: 0 0.3125rem; }
+
+section .image-container-four {
+  display: none; }
+
+section .image-container-four a {
+  display: block;
+  border: 1px solid #eaeaea;
+  margin: 0 0.3125rem; }
+
+section .image-container-five {
+  display: none; }
+
+section .image-container-five a {
+  display: block;
+  border: 1px solid #eaeaea;
+  margin: 0 0.3125rem; }
+
+section .image-container-six {
+  display: none; }
+
+section .image-container-six a {
   display: block;
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
@@ -550,7 +593,26 @@ section a {
         left: -10rem;
         top: 1.875rem;
         position: relative;
-        height: 0.25rem; } }
+        height: 0.25rem; }
+    section h2 {
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+      margin-bottom: 0.9375rem; }
+    section p::after {
+      display: block;
+      width: 8.25rem;
+      margin-left: 19.6875rem;
+      margin-top: 1.25rem; }
+  section .image-container {
+    display: flex; }
+    section .image-container-one {
+      display: flex;
+      margin-left: 0.4375rem;
+      margin-right: 0px; }
+    section .image-container-two {
+      display: block; }
+    section .image-container-three {
+      display: block; } }
 
 @media screen and (min-width: 1200px) {
     .footer .main-footer {
@@ -698,7 +760,35 @@ section a {
       main p::after {
         left: -13rem;
         top: 1.875rem;
-        width: 8.125rem; } }
+        width: 8.125rem; }
+  section .first-container {
+    padding: 3.125rem 9.0625rem 3.125rem 9.0625rem; }
+    section h2 {
+      font-size: 2.875rem;
+      padding-bottom: 1.25rem; }
+    section p::after {
+      margin-left: 43.6875rem;
+      margin-top: 2.25rem; }
+  section img {
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem; }
+    section .image-container-one a {
+      margin-right: 0.625rem; }
+    section .image-container-two a {
+      margin-right: 0.625rem; }
+    section .image-container-three a {
+      margin-right: 0.625rem; }
+    section .image-container-four {
+      display: block; }
+    section .image-container-four a {
+      margin-right: 0.625rem; }
+    section .image-container-five {
+      display: block; }
+    section .image-container-five a {
+      margin-right: 0.625rem; }
+    section .image-container-six {
+      display: none; }
+    section .image-container-six a {
+      margin-right: 0.625rem; } }
 
 
 /*# sourceMappingURL=main.css.map*/

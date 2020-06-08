@@ -1,15 +1,21 @@
 section {
 
+    .first-container{
 
+        @media screen and (min-width: $desktop) {
+            padding: 50px 145px 50px 145px;
+        }
+    }
     .kc-row-container {
         background-image:url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg);
-
-
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50%;
     }
 
 
     .kc-wrap-columns {
-        background: #1a2980!important;
+        background:$client-section-background!important;
         opacity: .8;
     }
 
@@ -22,17 +28,34 @@ section {
         line-height: 46px;
         text-align: center;
         text-transform: uppercase;
-        color: white;
+        color: $white;
+
+
+        @media screen and (min-width: $tablet){
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 15px;
+        }
+
+
+        @media screen and (min-width: $desktop) {
+            font-size: 46px;
+            padding-bottom: 20px;
+        }
     }
 
     p{  
-        color: #e1e1e1;
+        color: $ptag-font;
         margin: 10px 0;
         font-family: "Noto Serif",serif;
         font-style: italic;
         text-align: center;
         font-size: 24px;
         margin-left: 15px;
+
+        @media screen and (min-width: $tablet) {
+
+        }
     }
 
     p::after {
@@ -40,26 +63,178 @@ section {
         display: inline-block;
         width: 6.25rem;
         height: 0.1875rem;
-        background: #fff;
+        background: $white;
         content: "";
+
+        @media screen and (min-width: $tablet) {
+            display: block;
+            width: 8.25rem;
+            margin-left: 315px;
+            margin-top: 20px;
+        }
+
+
+        @media screen and (min-width: $desktop) {
+            margin-left: 43.6875rem;  
+            margin-top: 2.25rem;
+        }
+
+    }
+
+    .image-container {
+
+        @media screen and (min-width: $tablet) {
+            display: flex;
+        }
     }
 
 
-    .image-container {
+    .image-container-one {
         padding-bottom: 5.125rem;
         margin-left: 15px;
         margin-right: 15px;
 
+        @media screen and (min-width: $tablet) {
+            display: flex;
+            margin-left: 7px;
+            margin-right: 0px;
+
+        }
+
     }
 
+    // image are one 
 
-    .image-container img {
-        
+    img {
+
+
+        @media screen and (min-width: $desktop) {
+            padding: 10px 20px 10px 20px;
+        }
     }
 
-    a{
+    .image-container-one a{
         display: block;
-        border: 1px solid #eaeaea;
+        border: 1px solid $border;
         margin: 0 5px;
+
+
+        @media screen and (min-width: $desktop) {
+            margin-right: 10px;
+        }
     }
+
+
+
+    // image are two
+
+
+    .image-container-two {
+        display: none;
+
+
+        @media screen and (min-width: $tablet) {
+            display: block;
+        }
+    }
+
+    .image-container-two a{
+        display: block;
+        border: 1px solid $border;
+        margin: 0 5px;
+
+
+        @media screen and (min-width: $desktop) {
+            margin-right: 10px;
+        }
+    }
+
+    
+    // image area three
+
+    .image-container-three {
+        display: none;
+
+        @media screen and (min-width: $tablet) {
+            display: block;
+        }
+    }
+
+
+    .image-container-three a{
+        display: block;
+        border: 1px solid $border;
+        margin: 0 5px;
+
+        @media screen and (min-width: $desktop) {
+            margin-right: 10px;
+        }
+    }
+
+
+
+    .image-container-four {
+        display: none;
+
+        @media screen and (min-width: $desktop) {
+            display: block;
+        }
+
+    }
+
+
+    .image-container-four a{
+        display: block;
+        border: 1px solid $border;
+        margin: 0 5px;
+
+        @media screen and (min-width: $desktop) {
+            margin-right: 10px;
+        }
+    }
+
+
+
+
+    .image-container-five {
+        display: none;
+
+        @media screen and (min-width: $desktop) {
+            display: block;
+        }
+    }
+
+
+    .image-container-five a{
+        display: block;
+        border: 1px solid $border;
+        margin: 0 5px;
+
+        @media screen and (min-width: $desktop) {
+            margin-right: 10px;
+        }
+    }
+
+
+
+    .image-container-six {
+        display: none;
+
+
+        @media screen and (min-width: $desktop) {
+            display: none
+        }
+    }
+
+
+    .image-container-six a{
+        display: block;
+        border: 1px solid $border;
+        margin: 0 5px;
+
+        @media screen and (min-width: $desktop) {
+            margin-right: 10px;
+        }
+    }
+
 }

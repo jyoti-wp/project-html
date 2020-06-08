@@ -19,7 +19,7 @@ main{
     .headline-text-center h2 {
         font-size: 36px;
         line-height: 46px;
-        color: #212121;
+        color: $htag-font;
         font-weight: 700;
         font-family: inherit;
         text-align: center;
@@ -37,7 +37,7 @@ main{
 
     .headline-text-center p {
         margin: 10px 0;
-        color: #858585;
+        color: $gray-font;
         font-family: poppins sans-serif;
         font-style: italic;
 
@@ -57,10 +57,10 @@ main{
         display: inline-block;
         width: 100px;
         height: 3px;
-        background: #26d0ce;
-        background: -webkit-linear-gradient(90deg,#26d0ce,#1a2980);
-        background: -ms-linear-gradient(90deg,#26d0ce,#1a2980);
-        background: linear-gradient(90deg,#26d0ce,#1a2980);
+        background: $after;
+        background: -webkit-linear-gradient(90deg,$after,$after-one);
+        background: -ms-linear-gradient(90deg,$after,$after-one);
+        background: linear-gradient(90deg,$after,$after-one);
         content: "";
         margin-top: 30px;
 

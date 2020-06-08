@@ -15,10 +15,10 @@
 <body>
 <?php include_once 'templates/layouts/header.php'; ?>
 <?php include_once 'templates/home/our-service.php'; ?>
-<?php include_once 'templates/layouts/components/client-section.php'; ?>
-<?php include_once 'templates/layouts/contact-us-section.php'?>
-<?php include_once 'templates/layouts/map-section.php'; ?>
-<?php include_once 'templates/layouts/get-in-touch-area-secton.php'; ?>
+<?php include_once 'templates/home/client-section.php'; ?>
+<?php include_once 'templates/home/contact-us-section.php'?>
+<?php include_once 'templates/home/map-section.php'; ?>
+<?php include_once 'templates/home/get-in-touch-area-secton.php'; ?>
 <?php include_once 'templates/layouts/footer.php'?>
 
 
