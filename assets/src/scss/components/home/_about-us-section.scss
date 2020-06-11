@@ -47,13 +47,32 @@
         vertical-align: middle;
         width: 100%;
 
+        @media screen and (min-width: $tablet) {
+            width: 345px;
+            height: 324px;
+        }
+
         @media screen and (min-width: $desktop) {
-            width: 100%;
+            width: 100%
         }
     }
 
 
     // headline text area two
+
+
+
+    .about-us-section-two {
+
+
+        @media screen and (min-width: $tablet) {
+            display: flex;
+        }
+        
+    }
+
+
+    .image-area-section
 
 
     .headline-text-two h5 {
