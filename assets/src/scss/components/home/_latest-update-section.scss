@@ -1,11 +1,11 @@
-section {
+.new-area {
 
     .latest-news h2 {
         font-size: 36px;
         line-height: 46px;
         text-align: center;
         text-transform: uppercase;
-        color: $black;
+        color: #212121;
 
 
         @media screen and (min-width: $tablet){
@@ -20,4 +20,41 @@ section {
             padding-bottom: 20px;
         }
     }
+
+    .latest-news p {
+        margin: 10px 0;
+        color: #858585;
+        font-family: "Noto Serif",serif;
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+
+        @media screen and (min-width: $tablet) {
+
+        }
+
+
+        @media screen and (min-width: $desktop) {
+            margin-bottom: 15px;
+        }
+    }
+
+    .latest-news p::after {
+        position: relative;
+        top: 15px;
+        width: 6.25rem;
+        height: 0.1875rem;
+        background: #26d0ce;
+        background: linear-gradient(90deg, #26d0ce, #1a2980);
+        content: "";
+        display: block;
+        margin-left: 135px;
+
+
+        @media screen and (min-width: $desktop) {
+            display: inline-block;
+            margin-left: -155px;
+        }
+    }
+
 }

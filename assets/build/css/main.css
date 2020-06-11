@@ -325,114 +325,101 @@ header {
   width: 100%;
   max-width: 75rem; }
 
-main .message-area {
+.text-area-final {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem; }
+  .text-area-final .message-area h5 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: #212121;
+    font-weight: 700;
+    font-family: inherit;
+    text-transform: uppercase; }
+  .text-area-final .update-contact-form {
+    position: relative;
+    margin-bottom: 3.125rem;
+    background: #fafafa;
+    padding: 2.5rem; }
+  .text-area-final .form-action-page > input {
+    border: 1px solid #999;
+    padding: 0.625rem;
+    color: #272727;
+    background: #fff;
+    text-transform: capitalize;
+    width: 15.1875rem;
+    height: 1.625rem;
+    font-size: 0.75rem; }
+  .text-area-final textarea {
+    padding-left: 0;
+    border: 1px solid #999;
+    padding: 0.625rem;
+    color: black;
+    background: #fff;
+    width: 15.1875rem;
+    text-transform: capitalize;
+    height: 6.875rem;
+    font-size: 0.75rem; }
+  .text-area-final .button > input {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    border-radius: 1.5625rem;
+    margin-bottom: 0;
+    background-color: #26d0ce;
+    color: white;
+    width: 11.25rem;
+    border: none; }
+  .text-area-final .get-in-touch-section {
+    position: relative;
+    min-height: 1px; }
+  .text-area-final .get-in-touch-section h5 {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: #212121;
+    font-weight: 700;
+    font-family: inherit; }
+  .text-area-final .get-in-touch-section p {
+    color: #4e4e4e;
+    line-height: 1.5em;
+    margin-bottom: 2.5rem; }
+  .text-area-final .widget-contact ul {
+    list-style: none;
+    text-decoration: none; }
+  .text-area-final .widget-contact ul li {
+    position: relative;
+    padding-left: 1.875rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.5rem;
+    color: #4e4e4e; }
+  .text-area-final .widget-contact ul li i {
+    position: absolute;
+    top: 0.3125rem;
+    left: 0;
+    color: #26d0ce;
+    font-size: 1rem;
+    list-style: none;
+    text-decoration: none; }
+  .text-area-final .widget-contact ul li a {
+    color: #4e4e4e; }
+
+.map-area {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
+  .map-area .mapouter {
+    overflow: hidden;
+    z-index: 3;
+    padding: 0px;
+    left: 0px;
+    margin-bottom: 3.75rem;
+    text-align: center; }
 
-main .message-area h5 {
-  margin-bottom: 0.5rem;
-  font-size: 1.25rem;
-  color: #212121;
-  font-weight: 700;
-  font-family: inherit;
-  text-transform: uppercase; }
-
-main .update-contact-form {
-  position: relative;
-  margin-bottom: 3.125rem;
-  background: #fafafa;
-  padding: 2.5rem; }
-
-main .form-action-page > input {
-  border: 1px solid #999;
-  padding: 0.625rem;
-  color: #272727;
-  background: #fff;
-  text-transform: capitalize;
-  width: 15.1875rem;
-  height: 1.625rem;
-  font-size: 0.75rem; }
-
-main textarea {
-  padding-left: 0;
-  border: 1px solid #999;
-  padding: 0.625rem;
-  color: black;
-  background: #fff;
-  width: 15.1875rem;
-  text-transform: capitalize;
-  height: 6.875rem;
-  font-size: 0.75rem; }
-
-main .button > input {
-  font-size: 1rem;
-  font-weight: 700;
-  padding-top: 0.9375rem;
-  padding-bottom: 0.9375rem;
-  border-radius: 1.5625rem;
-  margin-bottom: 0;
-  background-color: #26d0ce;
-  color: white;
-  width: 11.25rem;
-  border: none; }
-
-main .get-in-touch-section {
-  position: relative;
-  min-height: 1px;
-  padding-right: 0.9375rem;
-  padding-left: 0.9375rem; }
-
-main .get-in-touch-section h5 {
-  margin-bottom: 0.5rem;
-  font-size: 1.25rem;
-  color: #212121;
-  font-weight: 700;
-  font-family: inherit; }
-
-main .get-in-touch-section p {
-  color: #4e4e4e;
-  line-height: 1.5em;
-  margin-bottom: 2.5rem; }
-
-main .widget-contact ul {
-  list-style: none;
-  text-decoration: none; }
-
-main .widget-contact ul li {
-  position: relative;
-  padding-left: 1.875rem;
-  margin-bottom: 1.25rem;
-  line-height: 1.5rem;
-  color: #4e4e4e; }
-
-main .widget-contact ul li i {
-  position: absolute;
-  top: 0.3125rem;
-  left: 0;
-  color: #26d0ce;
-  font-size: 1rem;
-  list-style: none;
-  text-decoration: none; }
-
-main .widget-contact ul li a {
-  color: #4e4e4e; }
-
-main .mapouter {
-  margin-left: 0.9375rem;
-  margin-right: 0.9375rem;
-  overflow: hidden;
-  z-index: 3;
-  padding: 0px;
-  left: 0px;
-  margin-bottom: 3.75rem;
-  text-align: center; }
-
-main {
+.headline-text-section {
   margin-right: 0.9375rem;
   margin-left: 0.9375rem; }
-  main .headline-section {
+  .headline-text-section .headline-section {
     padding: 6.25rem 0 1.875rem 0px; }
-  main .headline-text-center h2 {
+  .headline-text-section .headline-text-center h2 {
     font-size: 2.25rem;
     line-height: 2.875rem;
     color: #212121;
@@ -440,116 +427,191 @@ main {
     font-family: inherit;
     text-align: center;
     text-transform: uppercase; }
-  main .headline-text-center p {
+  .headline-text-section .headline-text-center p {
     margin: 0.625rem 0;
     color: #858585;
     font-family: poppins sans-serif;
-    font-style: italic; }
-  main p::after {
+    font-style: italic;
+    font-size: 1.25rem; }
+  .headline-text-section p::after {
     top: -0.3125rem;
-    display: inline-block;
+    display: block;
     width: 6.25rem;
     height: 0.1875rem;
     background: #26d0ce;
     background: linear-gradient(90deg, #26d0ce, #1a2980);
     content: "";
-    margin-top: 1.875rem; }
+    margin-top: 0.9375rem;
+    margin-left: 8.125rem; }
 
-section .kc-row-container {
+.our-best-client-section .kc-row-container {
   background-image: url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50%; }
 
-section .kc-wrap-columns {
+.our-best-client-section .kc-wrap-columns {
   background: #1a2980 !important;
   opacity: .8; }
 
-section .full-update-section {
+.our-best-client-section .full-update-section {
   padding: 6.25rem 0px 1.875rem; }
 
-section h2 {
+.our-best-client-section h2 {
   font-size: 2.25rem;
   line-height: 2.875rem;
   text-align: center;
   text-transform: uppercase;
   color: #fff; }
 
-section p {
+.our-best-client-section p {
   color: #e1e1e1;
   margin: 0.625rem 0;
   font-family: "Noto Serif",serif;
   font-style: italic;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-left: 0.9375rem; }
 
-section p::after {
+.our-best-client-section p::after {
   top: 1.6875rem;
-  display: inline-block;
+  display: block;
   width: 6.25rem;
   height: 0.1875rem;
   background: #fff;
-  content: ""; }
+  content: "";
+  margin-top: 0.9375rem;
+  margin-left: 8.125rem; }
 
-section .image-container-one {
+.our-best-client-section .image-container-one {
   padding-bottom: 5.125rem;
   margin-left: 0.9375rem;
   margin-right: 0.9375rem; }
 
-section .image-container-one a {
+.our-best-client-section .image-container-one a {
   display: block;
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
 
-section .image-container-two {
+.our-best-client-section .image-container-two {
   display: none; }
 
-section .image-container-two a {
+.our-best-client-section .image-container-two a {
   display: block;
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
 
-section .image-container-three {
+.our-best-client-section .image-container-three {
   display: none; }
 
-section .image-container-three a {
+.our-best-client-section .image-container-three a {
   display: block;
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
 
-section .image-container-four {
+.our-best-client-section .image-container-four {
   display: none; }
 
-section .image-container-four a {
+.our-best-client-section .image-container-four a {
   display: block;
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
 
-section .image-container-five {
+.our-best-client-section .image-container-five {
   display: none; }
 
-section .image-container-five a {
+.our-best-client-section .image-container-five a {
   display: block;
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
 
-section .image-container-six {
+.our-best-client-section .image-container-six {
   display: none; }
 
-section .image-container-six a {
+.our-best-client-section .image-container-six a {
   display: block;
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
 
-section .latest-news h2 {
+.new-area .latest-news h2 {
   font-size: 2.25rem;
   line-height: 2.875rem;
   text-align: center;
   text-transform: uppercase;
-  color: #000; }
+  color: #212121; }
 
-@media screen and (min-width: 768px) {
+.new-area .latest-news p {
+  margin: 0.625rem 0;
+  color: #858585;
+  font-family: "Noto Serif",serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  text-align: center; }
+
+.new-area .latest-news p::after {
+  position: relative;
+  top: 0.9375rem;
+  width: 6.25rem;
+  height: 0.1875rem;
+  background: #26d0ce;
+  background: linear-gradient(90deg, #26d0ce, #1a2980);
+  content: "";
+  display: block;
+  margin-left: 8.4375rem; }
+
+.about-us-section-one {
+  padding-top: 6.25rem; }
+  .about-us-section-one .about-us-container {
+    margin-right: 0.9375rem;
+    margin-left: 0.9375rem; }
+  .about-us-section-one .headline-text h2 {
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    color: #212121;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase; }
+  .about-us-section-one .headline-text p {
+    margin: 0.625rem 0;
+    color: #858585;
+    font-family: "Noto Serif",serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.125rem; }
+  .about-us-section-one .image-container {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem; }
+  .about-us-section-one .image-container img {
+    vertical-align: middle;
+    width: 100%; }
+  .about-us-section-one .headline-text-two h5 {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 0;
+    color: #212121;
+    font-weight: 700; }
+  .about-us-section-one .headline-text-two p {
+    margin-bottom: 1.25rem;
+    color: #4e4e4e;
+    line-height: 1.5em; }
+  .about-us-section-one .check-list {
+    list-style: none;
+    margin-bottom: 1.25rem; }
+  .about-us-section-one .check-list li {
+    margin-bottom: 0.3125rem;
+    color: #4e4e4e; }
+  .about-us-section-one .check-list li::before {
+    display: inline-block;
+    width: 0.4375rem;
+    height: 0.75rem;
+    border: solid #26d0ce;
+    border-width: 0 0.125rem 0.125rem 0;
+    margin-right: 0.9375rem;
+    transform: rotate(45deg);
+    content: ""; }
+  @media screen and (min-width: 768px) {
     .footer .main-footer {
       padding: 6.25rem 0;
       padding-left: 1.25rem;
@@ -584,49 +646,49 @@ section .latest-news h2 {
     .footer .gallery-items-landscape img {
       width: 3.4375rem;
       height: auto; }
-  main .message-area-container {
-    display: flex;
-    padding-right: 0.9375rem;
-    padding-left: 0.9375rem; }
-    main .message-area {
+    .text-area-final .message-area-container {
+      display: flex;
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem; }
+    .text-area-final .message-area {
       width: 65%; }
-    main .get-in-touch-section {
-      width: 33%; }
-  main iframe {
-    width: 100%; }
-      main .headline-text-center p {
+      .text-area-final .get-in-touch-section {
+        width: 33%; }
+    .map-area iframe {
+      width: 100%; }
+      .headline-text-section .headline-text-center p {
         font-size: 1.25rem;
-        margin-left: 6.875rem; }
-      main p::after {
-        left: -10rem;
+        margin-left: 14.375rem; }
+      .headline-text-section p::after {
+        left: -18rem;
         top: 1.875rem;
         position: relative;
-        height: 0.25rem; }
-    section h2 {
+        height: 0.25rem;
+        display: inline-block; }
+    .our-best-client-section h2 {
       font-size: 2.5rem;
       line-height: 3.125rem;
       margin-bottom: 0.9375rem; }
-    section p::after {
+    .our-best-client-section p::after {
       display: block;
       width: 8.25rem;
       margin-left: 19.6875rem;
       margin-top: 1.25rem; }
-  section .image-container {
+  .our-best-client-section .image-container {
     display: flex; }
-    section .image-container-one {
+    .our-best-client-section .image-container-one {
       display: flex;
       margin-left: 0.4375rem;
       margin-right: 0px; }
-    section .image-container-two {
+    .our-best-client-section .image-container-two {
       display: block; }
-    section .image-container-three {
+    .our-best-client-section .image-container-three {
       display: block; }
-    section .latest-news h2 {
+    .new-area .latest-news h2 {
       font-size: 2.5rem;
       line-height: 3.125rem;
       margin-bottom: 0.9375rem; } }
-
-@media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1200px) {
       header .header-main {
         display: flex;
         justify-content: space-between;
@@ -763,95 +825,103 @@ section .latest-news h2 {
       padding-bottom: 0.9375rem; }
     .wrapper {
       max-width: 100%; }
-  main .message-area-container {
-    padding-left: 7.8125rem;
-    padding-right: 7.8125rem;
-    padding-bottom: 5rem; }
-    main .message-area h5 {
-      margin-bottom: 0.5rem;
-      font-size: 1.625rem;
-      line-height: 1.5rem; }
-  main .action-page {
-    display: flex; }
-  main .form-action-page {
-    display: flex; }
-    main .form-action-page > input {
-      width: 24.6875rem;
-      height: 1.875rem;
-      margin-right: 2.0625rem;
-      padding: 0.9375rem;
-      margin-bottom: 1.875rem;
-      margin-left: 0.625rem;
-      font-size: 1.125rem; }
-    main textarea {
-      margin-left: 0.625rem;
-      width: 93%;
-      font-size: 1.5rem; }
-    main .button > input {
-      width: 14.375rem;
-      font-size: 1.25rem;
-      padding: 1.25rem;
-      margin-left: 0.625rem;
-      border-radius: 2.1875rem; }
-    main .get-in-touch-section h5 {
-      margin-bottom: 0.9375rem;
-      font-size: 1.625rem;
-      line-height: 1.5rem; }
-    main .get-in-touch-section p {
-      font-size: 1.25rem; }
-    main .widget-contact ul {
-      font-size: 1.25rem; }
-    main .widget-contact ul li {
-      margin-bottom: 1.5625rem;
-      padding-left: 3.125rem; }
-    main .widget-contact ul li i {
-      font-size: 1.5625rem; }
-  main {
-    padding: 4.25rem 0 1.875rem; }
-    main .mapouter {
-      margin-bottom: 1.8125rem;
-      padding-left: 7.1875rem;
-      padding-right: 7.1875rem; }
-      main .headline-text-center h2 {
+    .text-area-final .message-area-container {
+      padding-left: 7.8125rem;
+      padding-right: 7.8125rem;
+      padding-bottom: 5rem; }
+      .text-area-final .message-area h5 {
+        margin-bottom: 0.5rem;
+        font-size: 1.625rem;
+        line-height: 1.5rem; }
+    .text-area-final .action-page {
+      display: flex; }
+    .text-area-final .form-action-page {
+      display: flex; }
+      .text-area-final .form-action-page > input {
+        width: 24.6875rem;
+        height: 1.875rem;
+        margin-right: 2.0625rem;
+        padding: 0.9375rem;
+        margin-bottom: 1.875rem;
+        margin-left: 0.625rem;
+        font-size: 1.125rem; }
+      .text-area-final textarea {
+        margin-left: 0.625rem;
+        width: 93%;
+        font-size: 1.5rem; }
+      .text-area-final .button > input {
+        width: 14.375rem;
+        font-size: 1.25rem;
+        padding: 1.25rem;
+        margin-left: 0.625rem;
+        border-radius: 2.1875rem; }
+      .text-area-final .get-in-touch-section h5 {
+        margin-bottom: 0.9375rem;
+        font-size: 1.625rem;
+        line-height: 1.5rem; }
+      .text-area-final .get-in-touch-section p {
+        font-size: 1.25rem; }
+      .text-area-final .widget-contact ul {
+        font-size: 1.25rem; }
+      .text-area-final .widget-contact ul li {
+        margin-bottom: 1.5625rem;
+        padding-left: 3.125rem; }
+      .text-area-final .widget-contact ul li i {
+        font-size: 1.5625rem; }
+    .map-area {
+      padding: 4.25rem 0 1.875rem; }
+      .map-area .mapouter {
+        margin-bottom: 1.8125rem;
+        padding-left: 7.1875rem;
+        padding-right: 7.1875rem; }
+      .headline-text-section .headline-text-center h2 {
         font-size: 3rem; }
-      main .headline-text-center p {
+      .headline-text-section .headline-text-center p {
         font-size: 1.625rem;
         margin-left: 7.875rem; }
-      main p::after {
+      .headline-text-section p::after {
         left: -13rem;
         top: 1.875rem;
-        width: 8.125rem; }
-  section .first-container {
+        width: 8.125rem;
+        margin-left: 0.125rem; }
+  .our-best-client-section .first-container {
     padding: 3.125rem 9.0625rem 3.125rem 9.0625rem; }
-    section h2 {
+    .our-best-client-section h2 {
       font-size: 2.875rem;
       padding-bottom: 1.25rem; }
-    section p::after {
+    .our-best-client-section p::after {
       margin-left: 43.6875rem;
       margin-top: 2.25rem; }
-  section img {
+  .our-best-client-section img {
     padding: 0.625rem 1.25rem 0.625rem 1.25rem; }
-    section .image-container-one a {
+    .our-best-client-section .image-container-one a {
       margin-right: 0.625rem; }
-    section .image-container-two a {
+    .our-best-client-section .image-container-two a {
       margin-right: 0.625rem; }
-    section .image-container-three a {
+    .our-best-client-section .image-container-three a {
       margin-right: 0.625rem; }
-    section .image-container-four {
+    .our-best-client-section .image-container-four {
       display: block; }
-    section .image-container-four a {
+    .our-best-client-section .image-container-four a {
       margin-right: 0.625rem; }
-    section .image-container-five {
+    .our-best-client-section .image-container-five {
       display: block; }
-    section .image-container-five a {
+    .our-best-client-section .image-container-five a {
       margin-right: 0.625rem; }
-    section .image-container-six {
+    .our-best-client-section .image-container-six {
       display: none; }
-    section .image-container-six a {
+    .our-best-client-section .image-container-six a {
       margin-right: 0.625rem; }
-    section .latest-news h2 {
+    .new-area .latest-news h2 {
       font-size: 2.875rem;
-      padding-bottom: 1.25rem; } }
+      padding-bottom: 1.25rem; }
+    .new-area .latest-news p {
+      margin-bottom: 0.9375rem; }
+    .new-area .latest-news p::after {
+      display: inline-block;
+      margin-left: -9.6875rem; }
+      .about-us-section-one .image-container img {
+        width: 100%; } }
 
 
 /*# sourceMappingURL=main.css.map*/

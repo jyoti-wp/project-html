@@ -15,6 +15,7 @@
 <body>
 <?php include_once 'templates/layouts/header.php'; ?>
 <?php include_once 'templates/home/our-service.php'; ?>
+<?php include_once 'templates/home/about-us-section.php'; ?>
 <?php include_once 'templates/home/latest-update-section.php'; ?>
 <?php include_once 'templates/home/client-section.php'; ?>
 <?php include_once 'templates/home/contact-us-section.php'?>

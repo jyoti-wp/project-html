@@ -1,6 +1,9 @@
-main {
+.text-area-final {
 
     // mobile view
+    padding-left: 10px;
+    padding-right: 10px;
+    
     .message-area-container {
 
 
@@ -18,8 +21,8 @@ main {
     }
 
     .message-area {
-        padding-left: 15px;
-        padding-right: 15px;
+
+
 
         @media screen and (min-width: $tablet) {
             width: 65%;
@@ -146,8 +149,7 @@ main {
     .get-in-touch-section{
         position: relative;
         min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
+
 
 
         @media screen and (min-width: $tablet) {

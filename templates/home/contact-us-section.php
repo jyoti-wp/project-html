@@ -1,4 +1,4 @@
-<main>
+<main class="headline-text-section">
     <div class="headline-section">
         <div class="final-section">
             <div class="headline-text-center">

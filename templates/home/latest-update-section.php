@@ -1,11 +1,16 @@
-<section id="new-area">
+<section class="new-area">
     <div class="latest-update-sectioh">
         <div class="latest-news">
-           <h1>latest news</h1>
+           <h2>latest news</h2>
            <p>Lorem ipsum dolor sit amet</p>
         </div>
         <div class="latest-update-image-section">
-            <img src="../../assets/images/latest-new-section/10.jpg" alt="">
+            <div class="latest-image">
+                <img src="" alt="">
+            </div>
+            <div class="advertisment-section">
+                <p></p>
+            </div>
         </div>
     </div>
 </section>

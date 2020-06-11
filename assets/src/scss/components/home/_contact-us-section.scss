@@ -1,4 +1,4 @@
-main{
+.headline-text-section {
      // mobile view
     .headline-section {
         padding: 100px 0 30px 0px;
@@ -40,10 +40,11 @@ main{
         color: $gray-font;
         font-family: poppins sans-serif;
         font-style: italic;
+        font-size: 20px;
 
         @media screen and (min-width: $tablet) {
             font-size: 20px;
-            margin-left: 110px;
+            margin-left: 230px;
         }
 
         @media screen and (min-width: $desktop) {
@@ -54,7 +55,7 @@ main{
 
     p::after {
         top: -5px;
-        display: inline-block;
+        display: block;
         width: 100px;
         height: 3px;
         background: $after;
@@ -62,14 +63,16 @@ main{
         background: -ms-linear-gradient(90deg,$after,$after-one);
         background: linear-gradient(90deg,$after,$after-one);
         content: "";
-        margin-top: 30px;
+        margin-top: 15px;
+        margin-left: 130px;
 
 
         @media screen and (min-width: $tablet) {
-            left: -10rem;
+            left: -18rem;
             top: 30px;
             position: relative;
             height: 4px;
+            display: inline-block;
         }
 
 
@@ -77,6 +80,7 @@ main{
             left: -13rem;
             top: 30px;
             width: 130px;
+            margin-left: 2px;
         }
     }
 

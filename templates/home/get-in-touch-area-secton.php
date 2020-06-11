@@ -1,4 +1,4 @@
-<main>
+<main class="text-area-final">
     <div class="message-area-container">
         <div class="message-area">
                 <h5 class="text-area">Leave A Message</h5>

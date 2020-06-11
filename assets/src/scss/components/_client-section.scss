@@ -1,4 +1,4 @@
-section {
+.our-best-client-section {
 
     .first-container{
 
@@ -50,7 +50,7 @@ section {
         font-family: "Noto Serif",serif;
         font-style: italic;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
         margin-left: 15px;
 
         @media screen and (min-width: $tablet) {
@@ -60,11 +60,14 @@ section {
 
     p::after {
         top: 1.6875rem;
-        display: inline-block;
+        display: block;
         width: 6.25rem;
         height: 0.1875rem;
         background: $white;
         content: "";
+        margin-top: 15px;
+        margin-left: 130px;
+        
 
         @media screen and (min-width: $tablet) {
             display: block;

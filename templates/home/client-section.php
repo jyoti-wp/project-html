@@ -1,4 +1,4 @@
-<section>
+<section class="our-best-client-section">
     <div class="kc-row-container">
         <div class="kc-wrap-columns">
             <div class="first-container">
