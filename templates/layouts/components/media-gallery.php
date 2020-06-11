@@ -21,7 +21,7 @@
                 </div>
                 <div class="gallery-items">
                     <div class="gallery-items-images">
-                    <img width="150" height="150" src="assets/images/footer-section-one/media-gallery-image-five.jpg 550w" sizes="(max-width: 150px) 100vw, 150px">            </div>
+                    <img width="150" height="150" src="assets/images/footer-section-one/media-gallery-image-five.jpg" sizes="(max-width: 150px) 100vw, 150px">            </div>
                 </div>
                 <div class="gallery-items">
                     <div class="gallery-items-images">

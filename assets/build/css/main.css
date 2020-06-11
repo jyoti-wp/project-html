@@ -445,13 +445,12 @@ header {
     margin-left: 8.125rem; }
 
 .our-best-client-section .kc-row-container {
-  background-image: url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50%; }
 
 .our-best-client-section .kc-wrap-columns {
-  background: #1a2980 !important;
+  background: #1a2980;
   opacity: .8; }
 
 .our-best-client-section .full-update-section {
@@ -578,6 +577,8 @@ header {
     font-style: italic;
     text-align: center;
     font-size: 1.125rem; }
+  .about-us-section-one .image-area-section {
+    width: 50%; }
   .about-us-section-one .image-container {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem; }
@@ -674,8 +675,6 @@ header {
       width: 8.25rem;
       margin-left: 19.6875rem;
       margin-top: 1.25rem; }
-  .our-best-client-section .image-container {
-    display: flex; }
     .our-best-client-section .image-container-one {
       display: flex;
       margin-left: 0.4375rem;
@@ -687,7 +686,15 @@ header {
     .new-area .latest-news h2 {
       font-size: 2.5rem;
       line-height: 3.125rem;
-      margin-bottom: 0.9375rem; } }
+      margin-bottom: 0.9375rem; }
+      .about-us-section-one .image-container img {
+        width: 21.5625rem;
+        height: 20.25rem; }
+    .about-us-section-one .about-us-section-two {
+      display: flex;
+      justify-content: space-between; }
+    .about-us-section-one .information-section {
+      width: 50%; } }
   @media screen and (min-width: 1200px) {
       header .header-main {
         display: flex;
@@ -919,9 +926,7 @@ header {
       margin-bottom: 0.9375rem; }
     .new-area .latest-news p::after {
       display: inline-block;
-      margin-left: -9.6875rem; }
-      .about-us-section-one .image-container img {
-        width: 100%; } }
+      margin-left: -9.6875rem; } }
 
 
 /*# sourceMappingURL=main.css.map*/
