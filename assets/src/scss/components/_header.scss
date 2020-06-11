@@ -1,35 +1,143 @@
 header {
 	// Mobile;
-	width: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	padding: 5px;
-	display: flex;
-	justify-content: space-between;
-	background-color: $black;
+
+	background-color: $header-background;
 	
-	img {
-		width: 120px;
+
+	.header-main {
+
+
+		@media screen and (min-width: $desktop)	{
+			display: flex;
+			justify-content: space-between;
+			padding: 10px 150px;
+		}
+		
 	}
-	nav {
-		display: none;
+
+
+	.header-logo {
+
+
+		@media screen and (min-width: $desktop) {
+
+			padding-top: 20px;
+    		padding-bottom: 20px;
 		}
 
-	.nav-wrap {
-			display: flex;
+	}
+
+
+
+	img {
+
+
+		@media screen and (min-width: $desktop) {
+			width: 150px;
 		}
+	}
+
+
+
+	nav {
+		display: none;
+
+		@media screen and (min-width: $tablet) {
+
+
+		}
+
+		@media screen and (min-width: $desktop) {
+
+			display: flex;
+			padding-top: 1.25rem;
+    		padding-bottom: 1.25rem;
+		}
+		}
+
+
+
+	.nav-wrap {
+
+
+
+		@media screen and (min-width: $desktop) {
+			position: relative;
+			display: flex;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		
+	}
+
+
 
 	.nav-list-item {
 
 	}
 
+
+
 	.nav-list-item li{
 		
 	}
 
-	.nav-list-item a {
-		color: $white;
+
+
+	.nav-list-item > a {
+
+
+		@media screen and (min-width: $desktop) {
+			color: $white;
+			position: relative;
+			z-index: 1;
+			padding: 30px 20px 19px 10px;
+			font-weight: 500;
+			font-size: 22px;
+			text-decoration: none;
+			list-style: none;
+			padding-right: 35px;
+			text-transform: capitalize;
+		}
+	}
+
+
+	.quote-btn {
+		
+
+
+		@media screen and (min-width: $desktop) {
+
+			margin-left: 55px;
+		}
+	}
+
+
+
+	.quote-btn > a {
+
+
+
+
+		@media screen and (min-width: $desktop) {
+			position: relative;
+			width: 225px;
+			height: 40px;
+			line-height: 40px;
+			border-radius: 50px;
+			display: block;
+			box-shadow: 0 0 5px rgba(0,0,0,.1);
+			background: #26d0ce;
+			color: #fff;
+			font-size: 18px;
+			font-weight: 700;
+			font-family: Poppins,sans-serif;
+			text-align: center;
+			-webkit-transition: all .25s;
+			transition: all .25s;
+			text-decoration: none;
+			padding: 10px;
+		}
 	}
 
 	}

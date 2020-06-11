@@ -61,22 +61,9 @@ body {
   font: 1rem/1.5rem Poppins,sans-serif; }
 
 header {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 0.3125rem;
-  display: flex;
-  justify-content: space-between;
-  background-color: #000; }
-  header img {
-    width: 7.5rem; }
+  background-color: #4074A3; }
   header nav {
     display: none; }
-  header .nav-wrap {
-    display: flex; }
-  header .nav-list-item a {
-    color: #fff; }
 
 .footer .main-footer {
   background-color: #2d313c;
@@ -541,6 +528,13 @@ section .image-container-six a {
   border: 1px solid #eaeaea;
   margin: 0 0.3125rem; }
 
+section .latest-news h2 {
+  font-size: 2.25rem;
+  line-height: 2.875rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000; }
+
 @media screen and (min-width: 768px) {
     .footer .main-footer {
       padding: 6.25rem 0;
@@ -612,9 +606,61 @@ section .image-container-six a {
     section .image-container-two {
       display: block; }
     section .image-container-three {
-      display: block; } }
+      display: block; }
+    section .latest-news h2 {
+      font-size: 2.5rem;
+      line-height: 3.125rem;
+      margin-bottom: 0.9375rem; } }
 
 @media screen and (min-width: 1200px) {
+    header .header-main {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.625rem 9.375rem; }
+    header .header-logo {
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem; }
+    header img {
+      width: 9.375rem; }
+      header nav {
+        display: flex;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem; }
+    header .nav-wrap {
+      position: relative;
+      display: flex;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem; }
+    header .nav-list-item > a {
+      color: #fff;
+      position: relative;
+      z-index: 1;
+      padding: 1.875rem 1.25rem 1.1875rem 0.625rem;
+      font-weight: 500;
+      font-size: 1.375rem;
+      text-decoration: none;
+      list-style: none;
+      padding-right: 2.1875rem;
+      text-transform: capitalize; }
+    header .quote-btn {
+      margin-left: 3.4375rem; }
+    header .quote-btn > a {
+      position: relative;
+      width: 14.0625rem;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      border-radius: 3.125rem;
+      display: block;
+      box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1);
+      background: #26d0ce;
+      color: #fff;
+      font-size: 1.125rem;
+      font-weight: 700;
+      font-family: Poppins,sans-serif;
+      text-align: center;
+      transition: all .25s;
+      text-decoration: none;
+      padding: 0.625rem; }
     .footer .main-footer {
       padding: 9.375rem 0px; }
   .footer .footer-area-grid {
@@ -788,7 +834,10 @@ section .image-container-six a {
     section .image-container-six {
       display: none; }
     section .image-container-six a {
-      margin-right: 0.625rem; } }
+      margin-right: 0.625rem; }
+    section .latest-news h2 {
+      font-size: 2.875rem;
+      padding-bottom: 1.25rem; } }
 
 
 /*# sourceMappingURL=main.css.map*/

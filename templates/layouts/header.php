@@ -1,5 +1,6 @@
 <header>
 	<div class="wrapper">
+		<div class="header-main">
 		<div class="header-logo">
 			<img src="assets/images/header/site-logo.png" alt="Site logo">
 		</div>
@@ -34,5 +35,6 @@
 				<a href="#">Get a Quote</a>
 			</div>
 		</nav>
+		</div>
 	</div>
 </header>	
