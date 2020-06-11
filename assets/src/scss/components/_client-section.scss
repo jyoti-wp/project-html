@@ -7,7 +7,7 @@ section {
         }
     }
     .kc-row-container {
-        background-image:url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg);
+        background-image:url(./assets/images/our-best-clients/kc-row-background.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: 50%;
@@ -44,7 +44,7 @@ section {
         }
     }
 
-    p{  
+    p{
         color: $ptag-font;
         margin: 10px 0;
         font-family: "Noto Serif",serif;
@@ -75,7 +75,7 @@ section {
 
 
         @media screen and (min-width: $desktop) {
-            margin-left: 43.6875rem;  
+            margin-left: 43.6875rem;
             margin-top: 2.25rem;
         }
 
@@ -103,7 +103,7 @@ section {
 
     }
 
-    // image are one 
+    // image are one
 
     img {
 
@@ -149,7 +149,7 @@ section {
         }
     }
 
-    
+
     // image area three
 
     .image-container-three {
