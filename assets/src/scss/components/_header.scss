@@ -5,7 +5,7 @@ header {
 	
 
 	.header-main {
-
+		display: none;
 
 		@media screen and (min-width: $desktop)	{
 			display: flex;
@@ -17,7 +17,7 @@ header {
 
 
 	.header-logo {
-
+		display: none;
 
 		@media screen and (min-width: $desktop) {
 
@@ -30,7 +30,7 @@ header {
 
 
 	img {
-
+		display: none;
 
 		@media screen and (min-width: $desktop) {
 			width: 150px;
@@ -58,7 +58,7 @@ header {
 
 
 	.nav-wrap {
-
+		display: none;
 
 
 		@media screen and (min-width: $desktop) {
@@ -85,6 +85,7 @@ header {
 
 
 	.nav-list-item > a {
+		display: none;
 
 
 		@media screen and (min-width: $desktop) {
@@ -103,7 +104,8 @@ header {
 
 
 	.quote-btn {
-		
+		display: none;
+
 
 
 		@media screen and (min-width: $desktop) {
@@ -115,7 +117,7 @@ header {
 
 
 	.quote-btn > a {
-
+		display: none;
 
 
 
@@ -130,7 +132,7 @@ header {
 			background: #26d0ce;
 			color: #fff;
 			font-size: 18px;
-			font-weight: 700;
+			font-weight: 500;
 			font-family: Poppins,sans-serif;
 			text-align: center;
 			-webkit-transition: all .25s;
