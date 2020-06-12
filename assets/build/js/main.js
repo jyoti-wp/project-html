@@ -86,6 +86,40 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./images/our-best-clients/kc-row-background.jpg":
+/*!*******************************************************!*\
+  !*** ./images/our-best-clients/kc-row-background.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "../images/our-best-clients/kc-row-background.jpg";
+
+/***/ }),
+
+/***/ "./src/js/carousel/index.js":
+/*!**********************************!*\
+  !*** ./src/js/carousel/index.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function ($) {
+  console.warn('came');
+  $(document).ready(function () {
+    $('.image-container').slick({
+      dots: true,
+      autoplay: true,
+      infinite: true,
+      speed: 100,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  });
+})(jQuery);
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
@@ -97,7 +131,13 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ "./src/scss/main.scss");
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_our_best_clients_kc_row_background_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../images/our-best-clients/kc-row-background.jpg */ "./images/our-best-clients/kc-row-background.jpg");
+/* harmony import */ var _images_our_best_clients_kc_row_background_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_our_best_clients_kc_row_background_jpg__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./carousel */ "./src/js/carousel/index.js");
+/* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_carousel__WEBPACK_IMPORTED_MODULE_2__);
 console.warn('Hello');
+
+
 
 
 /***/ }),
@@ -107,9 +147,9 @@ console.warn('Hello');
   !*** ./src/scss/main.scss ***!
   \****************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\n        background-repeat: no-repeat;\n       ^\n      Invalid CSS after \"...ckground-repeat\": expected \"}\", was \": no-repeat;\"\n      in /Applications/MAMP/htdocs/project-html/assets/src/scss/components/_client-section.scss (line 11, column 9)\n    at runLoaders (/Applications/MAMP/htdocs/project-html/assets/node_modules/webpack/lib/NormalModule.js:316:20)\n    at /Applications/MAMP/htdocs/project-html/assets/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Applications/MAMP/htdocs/project-html/assets/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Applications/MAMP/htdocs/project-html/assets/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.render [as callback] (/Applications/MAMP/htdocs/project-html/assets/node_modules/sass-loader/dist/index.js:89:7)\n    at Object.done [as callback] (/Applications/MAMP/htdocs/project-html/assets/node_modules/neo-async/async.js:8067:18)\n    at options.error (/Applications/MAMP/htdocs/project-html/assets/node_modules/node-sass/lib/index.js:294:32)");
+// extracted by mini-css-extract-plugin
 
 /***/ })
 

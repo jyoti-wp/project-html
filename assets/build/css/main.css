@@ -445,13 +445,14 @@ header {
     margin-left: 8.125rem; }
 
 .our-best-client-section .kc-row-container {
+  background-image: url(/html-project/assets/images/our-best-clients/kc-row-background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50%; }
 
 .our-best-client-section .kc-wrap-columns {
   background: #1a2980;
-  opacity: .8; }
+  opacity: 0.8; }
 
 .our-best-client-section .full-update-section {
   padding: 6.25rem 0px 1.875rem; }
@@ -466,7 +467,7 @@ header {
 .our-best-client-section p {
   color: #e1e1e1;
   margin: 0.625rem 0;
-  font-family: "Noto Serif",serif;
+  font-family: "Noto Serif", serif;
   font-style: italic;
   text-align: center;
   font-size: 1.25rem;
