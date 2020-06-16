@@ -86,6 +86,29 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/js/carousel/index.js":
+/*!**********************************!*\
+  !*** ./src/js/carousel/index.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function ($) {
+  console.warn('came');
+  $(document).ready(function () {
+    $('.image-container').slick({
+      dots: true,
+      autoplay: true,
+      infinite: true,
+      speed: 100,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+  });
+})(jQuery);
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
@@ -97,7 +120,10 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ "./src/scss/main.scss");
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./carousel */ "./src/js/carousel/index.js");
+/* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_carousel__WEBPACK_IMPORTED_MODULE_1__);
 console.warn('Hello');
+
 
 
 /***/ }),
@@ -107,9 +133,9 @@ console.warn('Hello');
   !*** ./src/scss/main.scss ***!
   \****************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleNotFoundError: Module not found: Error: Can't resolve '../../../images/our-best-clients/kc-row-background.jpg' in '/Applications/MAMP/htdocs/project-html/assets/src/scss'\n    at factory.create (/Applications/MAMP/htdocs/project-html/assets/node_modules/webpack/lib/Compilation.js:925:10)\n    at factory (/Applications/MAMP/htdocs/project-html/assets/node_modules/webpack/lib/NormalModuleFactory.js:401:22)\n    at resolver (/Applications/MAMP/htdocs/project-html/assets/node_modules/webpack/lib/NormalModuleFactory.js:130:21)\n    at asyncLib.parallel (/Applications/MAMP/htdocs/project-html/assets/node_modules/webpack/lib/NormalModuleFactory.js:224:22)\n    at /Applications/MAMP/htdocs/project-html/assets/node_modules/neo-async/async.js:2830:7\n    at /Applications/MAMP/htdocs/project-html/assets/node_modules/neo-async/async.js:6877:13\n    at normalResolver.resolve (/Applications/MAMP/htdocs/project-html/assets/node_modules/webpack/lib/NormalModuleFactory.js:214:25)\n    at doResolve (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/Resolver.js:213:14)\n    at hook.callAsync (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/Resolver.js:285:5)\n    at _fn0 (eval at create (/Applications/MAMP/htdocs/project-html/assets/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at resolver.doResolve (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/UnsafeCachePlugin.js:44:7)\n    at hook.callAsync (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/Resolver.js:285:5)\n    at _fn0 (eval at create (/Applications/MAMP/htdocs/project-html/assets/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at hook.callAsync (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/Resolver.js:285:5)\n    at _fn0 (eval at create (/Applications/MAMP/htdocs/project-html/assets/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)\n    at resolver.doResolve (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:67:43)\n    at hook.callAsync (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/Resolver.js:285:5)\n    at _fn42 (eval at create (/Applications/MAMP/htdocs/project-html/assets/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at hook.callAsync (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/Resolver.js:285:5)\n    at _fn1 (eval at create (/Applications/MAMP/htdocs/project-html/assets/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at hook.callAsync (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/Resolver.js:285:5)\n    at _fn1 (eval at create (/Applications/MAMP/htdocs/project-html/assets/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at hook.callAsync (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/Resolver.js:285:5)\n    at _fn0 (eval at create (/Applications/MAMP/htdocs/project-html/assets/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at fs.stat (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/DirectoryExistsPlugin.js:27:15)\n    at process.nextTick (/Applications/MAMP/htdocs/project-html/assets/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:85:15)\n    at process._tickCallback (internal/process/next_tick.js:61:11)");
+// extracted by mini-css-extract-plugin
 
 /***/ })
 

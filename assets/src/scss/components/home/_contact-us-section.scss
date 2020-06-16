@@ -41,15 +41,15 @@
         font-family: poppins sans-serif;
         font-style: italic;
         font-size: 20px;
+        text-align: center;
 
         @media screen and (min-width: $tablet) {
             font-size: 20px;
-            margin-left: 230px;
+
         }
 
         @media screen and (min-width: $desktop) {
             font-size: 26px;
-            margin-left: 7.875rem;
         }
     }
 
@@ -68,19 +68,15 @@
 
 
         @media screen and (min-width: $tablet) {
-            left: -18rem;
-            top: 30px;
-            position: relative;
-            height: 4px;
-            display: inline-block;
+            display: block;
+            margin-left: 315px;
         }
 
 
         @media screen and (min-width: $desktop) {
-            left: -13rem;
             top: 30px;
             width: 130px;
-            margin-left: 2px;
+            
         }
     }
 

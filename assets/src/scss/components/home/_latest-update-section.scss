@@ -35,7 +35,8 @@
 
 
         @media screen and (min-width: $desktop) {
-            margin-bottom: 15px;
+            padding-bottom: 20px;
+            font-size: 26px;
         }
     }
 
@@ -51,9 +52,15 @@
         margin-left: 135px;
 
 
+        @media screen and (min-width: $tablet) {
+            margin-left: 335px;
+        }
+
+
         @media screen and (min-width: $desktop) {
-            display: inline-block;
-            margin-left: -155px;
+            display: block;
+            left: 509px;
+            width: 125px;
         }
     }
 

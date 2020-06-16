@@ -26,7 +26,12 @@
 
         @media screen and (min-width: $tablet) {
             width: 65%;
-        }        
+        }  
+        
+        @media screen and (min-width: $desktop) {
+            margin-right: 40px;
+            width: 63%;
+        }
     }
 
 
