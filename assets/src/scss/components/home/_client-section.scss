@@ -1,6 +1,10 @@
 .our-best-client-section {
 
 	.first-container {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
 
 		@media screen and (min-width: $desktop) {
@@ -9,7 +13,7 @@
 	}
 
 	.kc-row-container {
-		background-image:url('/assets/images/our-best-clients/our-client-background.jpg');
+		background-image:url('assets/images/our-best-clients/our-client-background.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: 50%;
@@ -48,12 +52,11 @@
 
 	.full-update-section p {
 		color: $ptag-font;
-		margin: 10px 0;
 		font-family: "Noto Serif", serif;
 		font-style: italic;
 		text-align: center;
 		font-size: 20px;
-		margin-left: 15px;
+		position: relative;
 
 		@media screen and (min-width: $tablet) {
 
@@ -61,36 +64,39 @@
 	}
 
 	.full-update-section p::after {
-		top: 1.6875rem;
+		top: 40px;
+		position: absolute;
 		display: block;
 		width: 6.25rem;
 		height: 0.1875rem;
 		background: $white;
 		content: "";
-		margin-top: 15px;
-		margin-left: 130px;
+		margin-left: 110px;
 
 
 		@media screen and (min-width: $tablet) {
-			display: block;
-			width: 8.25rem;
-			margin-left: 315px;
-			margin-top: 20px;
+			width: 101px;
+    		margin-left: 130px;
 		}
 
 
 		@media screen and (min-width: $desktop) {
-			margin-left: 43.6875rem;
-			margin-top: 2.25rem;
+			margin-left: 155px;
 		}
 
 	}
 
 	.image-container {
-		display: flex;
-		padding-right: 15px;
-		padding-left: 10px;
+			display: flex;
+			padding-right: 15px;
+			padding-left: 10px;
+			width: 300px;
+			overflow: hidden;
+	}
 
+
+	.slick-list {
+		margin-left: -100px;
 	}
 
 

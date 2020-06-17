@@ -20,6 +20,7 @@
 <body>
 <?php include_once 'templates/layouts/header.php'; ?>
 <?php include_once 'templates/home/our-service.php'; ?>
+<?php include_once 'templates/home/main-image-area.php'; ?>
 <?php include_once 'templates/home/about-us-section.php'; ?>
 <?php include_once 'templates/home/likes-section.php'; ?>
 <?php include_once 'templates/home/latest-update-section.php'; ?>

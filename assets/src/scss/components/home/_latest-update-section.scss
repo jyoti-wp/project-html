@@ -1,5 +1,13 @@
 .new-area {
 
+    // mobile section
+
+
+    @media screen and (min-width: $tablet) {
+        padding-top: 50px;
+    }
+
+
     .latest-news h2 {
         font-size: 36px;
         line-height: 46px;
@@ -28,6 +36,7 @@
         font-style: italic;
         font-size: 20px;
         text-align: center;
+        position: relative;
 
         @media screen and (min-width: $tablet) {
 
@@ -41,8 +50,8 @@
     }
 
     .latest-news p::after {
-        position: relative;
-        top: 15px;
+        position: absolute;
+        top: 40px;
         width: 6.25rem;
         height: 0.1875rem;
         background: #26d0ce;
@@ -58,10 +67,168 @@
 
 
         @media screen and (min-width: $desktop) {
-            display: block;
-            left: 509px;
+            left: 520px;
             width: 125px;
+            top: 45px;
         }
     }
 
+
+
+
+
+                // latest   update   section   one    area 
+
+
+    .latest-update-image-area {
+
+        @media screen and (min-width: $tablet) {
+            display: flex;
+        }
+    }
+    
+    
+
+    .latest-update-image-section-one {
+        padding-top: 80px;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-bottom: 40px;
+
+
+        @media screen and (min-width: $tablet) {
+            margin-right: 0;
+
+        }
+    }
+
+    .latest-image {
+
+    }
+
+    .latest-image img {
+        width: 325px;
+
+
+        @media screen and (min-width: $tablet) {
+            width: 100%;
+        }
+
+    }
+
+
+                    // advertisment section start
+
+
+    .advertisment-section {
+        padding: 30px 20px;
+        border: 1px solid #eaeaea;
+        margin-top: -7px;
+
+    }
+
+    .advertisment-section h5 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.2em;
+        text-transform: capitalize;
+
+    }
+
+
+
+    .advertisment-section h5 a {
+        color: #212121;
+
+
+    }
+
+
+                            // article section
+
+    .article-section {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .article-section > a {
+        text-decoration: none;
+        color: #212121;
+
+    }
+
+    
+    .author {
+        border-right: 1px solid;
+        padding-right: 10px;
+
+    }
+
+    .comments {
+        padding-left: 10px;
+    }
+
+    
+    .paragraph p {
+        color: #4e4e4e;
+        line-height: 22px;
+        margin-right: 10px;
+        margin-top: 15px;
+
+    }
+
+    .btn-default {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: .3px;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #1a2980;
+        position: relative;
+        overflow: hidden;
+        padding: 7px 30px 8px 30px;
+        border: none;
+        border-radius: 20px;
+        display: inline-block;
+        margin-top: 25px;
+    }
+
+
+
+            // latest   update    image    section    two    area  
+
+    .latest-update-image-section-two {
+        display: none;
+
+        @media screen and (min-width: $tablet) {
+            padding-top: 80px;
+            margin-left: 25px;
+            margin-right: 25px;
+            padding-bottom: 40px;
+            display: inline;
+            }
+    }
+
+
+            // latest   update    image    section    two    area 
+
+
+
+    .latest-update-image-section-three {
+        display: none;
+    }
+
+
+            // latest   update    image    section    two    area 
+
+
+
+
+    .latest-update-image-section-four {
+        display: none;
+    }
+
+
+
+    
 }

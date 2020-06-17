@@ -8,11 +8,6 @@
     margin-right: 15px;
     margin-left: 15px;
 
-
-    .headline-text-center {
-
-    }
-    
     
     
     
@@ -36,12 +31,13 @@
 
 
     .headline-text-center p {
-        margin: 10px 0;
         color: $gray-font;
         font-family: poppins sans-serif;
         font-style: italic;
         font-size: 20px;
         text-align: center;
+        position: relative;
+        margin-top: 20px;
 
         @media screen and (min-width: $tablet) {
             font-size: 20px;
@@ -54,29 +50,28 @@
     }
 
     p::after {
-        top: -5px;
+        position: absolute;
+        top: 40px;
         display: block;
         width: 100px;
         height: 3px;
+        margin-left: 120px;
         background: $after;
         background: -webkit-linear-gradient(90deg,$after,$after-one);
         background: -ms-linear-gradient(90deg,$after,$after-one);
         background: linear-gradient(90deg,$after,$after-one);
         content: "";
-        margin-top: 15px;
-        margin-left: 130px;
 
 
         @media screen and (min-width: $tablet) {
-            display: block;
             margin-left: 315px;
         }
 
 
         @media screen and (min-width: $desktop) {
-            top: 30px;
+            top: 45px;
             width: 130px;
-            
+            left: 520px;
         }
     }
 

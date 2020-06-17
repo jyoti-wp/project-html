@@ -48,6 +48,7 @@
         font-style: italic;
         text-align: center;
         font-size: 18px;
+        position: relative;
 
         @media screen and (min-width: $desktop) {
             font-size: 26px;
@@ -56,8 +57,8 @@
     }
 
     .headline-text p::after {
-        position: relative;
-        top: 20px;
+        position: absolute;
+        top: 40px;
         margin-left: 130px;
         display: block;
         width: 100px;
@@ -73,7 +74,7 @@
         }
 
         @media screen and (min-width: $desktop) {
-            top: 20px;
+            top: 45px;
             left: 306px;
             width: 125px;
 

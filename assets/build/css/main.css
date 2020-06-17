@@ -429,22 +429,29 @@ header {
     text-align: center;
     text-transform: uppercase; }
   .headline-text-section .headline-text-center p {
-    margin: 0.625rem 0;
     color: #858585;
     font-family: poppins sans-serif;
     font-style: italic;
     font-size: 1.25rem;
-    text-align: center; }
+    text-align: center;
+    position: relative;
+    margin-top: 1.25rem; }
   .headline-text-section p::after {
-    top: -0.3125rem;
+    position: absolute;
+    top: 2.5rem;
     display: block;
     width: 6.25rem;
     height: 0.1875rem;
+    margin-left: 7.5rem;
     background: #26d0ce;
     background: linear-gradient(90deg, #26d0ce, #1a2980);
-    content: "";
-    margin-top: 0.9375rem;
-    margin-left: 8.125rem; }
+    content: ""; }
+
+.our-best-client-section .first-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .our-best-client-section .kc-row-container {
   background-image: url("/assets/images/our-best-clients/our-client-background.jpg");
@@ -468,27 +475,31 @@ header {
 
 .our-best-client-section .full-update-section p {
   color: #e1e1e1;
-  margin: 0.625rem 0;
   font-family: "Noto Serif", serif;
   font-style: italic;
   text-align: center;
   font-size: 1.25rem;
-  margin-left: 0.9375rem; }
+  position: relative; }
 
 .our-best-client-section .full-update-section p::after {
-  top: 1.6875rem;
+  top: 2.5rem;
+  position: absolute;
   display: block;
   width: 6.25rem;
   height: 0.1875rem;
   background: #fff;
   content: "";
-  margin-top: 0.9375rem;
-  margin-left: 8.125rem; }
+  margin-left: 6.875rem; }
 
 .our-best-client-section .image-container {
   display: flex;
   padding-right: 0.9375rem;
-  padding-left: 0.625rem; }
+  padding-left: 0.625rem;
+  width: 18.75rem;
+  overflow: hidden; }
+
+.our-best-client-section .slick-list {
+  margin-left: -6.25rem; }
 
 .our-best-client-section .image-container-one {
   padding-bottom: 5.125rem;
@@ -553,11 +564,12 @@ header {
   font-family: "Noto Serif",serif;
   font-style: italic;
   font-size: 1.25rem;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 
 .new-area .latest-news p::after {
-  position: relative;
-  top: 0.9375rem;
+  position: absolute;
+  top: 2.5rem;
   width: 6.25rem;
   height: 0.1875rem;
   background: #26d0ce;
@@ -565,6 +577,74 @@ header {
   content: "";
   display: block;
   margin-left: 8.4375rem; }
+
+.new-area .latest-update-image-section-one {
+  padding-top: 5rem;
+  margin-left: 1.5625rem;
+  margin-right: 1.5625rem;
+  padding-bottom: 2.5rem; }
+
+.new-area .latest-image img {
+  width: 20.3125rem; }
+
+.new-area .advertisment-section {
+  padding: 1.875rem 1.25rem;
+  border: 1px solid #eaeaea;
+  margin-top: -0.4375rem; }
+
+.new-area .advertisment-section h5 {
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 1.2em;
+  text-transform: capitalize; }
+
+.new-area .advertisment-section h5 a {
+  color: #212121; }
+
+.new-area .article-section {
+  font-size: 0.875rem;
+  font-weight: 600; }
+
+.new-area .article-section > a {
+  text-decoration: none;
+  color: #212121; }
+
+.new-area .author {
+  border-right: 1px solid;
+  padding-right: 0.625rem; }
+
+.new-area .comments {
+  padding-left: 0.625rem; }
+
+.new-area .paragraph p {
+  color: #4e4e4e;
+  line-height: 1.375rem;
+  margin-right: 0.625rem;
+  margin-top: 0.9375rem; }
+
+.new-area .btn-default {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #1a2980;
+  position: relative;
+  overflow: hidden;
+  padding: 0.4375rem 1.875rem 0.5rem 1.875rem;
+  border: none;
+  border-radius: 1.25rem;
+  display: inline-block;
+  margin-top: 1.5625rem; }
+
+.new-area .latest-update-image-section-two {
+  display: none; }
+
+.new-area .latest-update-image-section-three {
+  display: none; }
+
+.new-area .latest-update-image-section-four {
+  display: none; }
 
 .about-us-section-one {
   padding-top: 7.1875rem; }
@@ -586,10 +666,11 @@ header {
     font-family: "Noto Serif",serif;
     font-style: italic;
     text-align: center;
-    font-size: 1.125rem; }
+    font-size: 1.125rem;
+    position: relative; }
   .about-us-section-one .headline-text p::after {
-    position: relative;
-    top: 1.25rem;
+    position: absolute;
+    top: 2.5rem;
     margin-left: 8.125rem;
     display: block;
     width: 6.25rem;
@@ -714,17 +795,14 @@ header {
       .headline-text-section .headline-text-center p {
         font-size: 1.25rem; }
       .headline-text-section p::after {
-        display: block;
         margin-left: 19.6875rem; }
     .our-best-client-section h2 {
       font-size: 2.5rem;
       line-height: 3.125rem;
       margin-bottom: 0.9375rem; }
     .our-best-client-section .full-update-section p::after {
-      display: block;
-      width: 8.25rem;
-      margin-left: 19.6875rem;
-      margin-top: 1.25rem; }
+      width: 6.3125rem;
+      margin-left: 8.125rem; }
     .our-best-client-section .image-container-one {
       display: flex;
       margin-left: 0.4375rem;
@@ -735,12 +813,26 @@ header {
       display: block; }
     .our-best-client-section .image-container-three {
       display: block; }
+  .new-area {
+    padding-top: 3.125rem; }
     .new-area .latest-news h2 {
       font-size: 2.5rem;
       line-height: 3.125rem;
       margin-bottom: 0.9375rem; }
     .new-area .latest-news p::after {
       margin-left: 20.9375rem; }
+  .new-area .latest-update-image-area {
+    display: flex; }
+    .new-area .latest-update-image-section-one {
+      margin-right: 0; }
+    .new-area .latest-image img {
+      width: 100%; }
+    .new-area .latest-update-image-section-two {
+      padding-top: 5rem;
+      margin-left: 1.5625rem;
+      margin-right: 1.5625rem;
+      padding-bottom: 2.5rem;
+      display: inline; }
     .about-us-section-one {
       padding-bottom: 3.125rem; }
       .about-us-section-one .headline-text p::after {
@@ -966,16 +1058,16 @@ header {
       .headline-text-section .headline-text-center p {
         font-size: 1.625rem; }
       .headline-text-section p::after {
-        top: 1.875rem;
-        width: 8.125rem; }
-  .our-best-client-section .first-container {
-    padding: 3.125rem 9.0625rem 3.125rem 9.0625rem; }
+        top: 2.8125rem;
+        width: 8.125rem;
+        left: 32.5rem; }
+    .our-best-client-section .first-container {
+      padding: 3.125rem 9.0625rem 3.125rem 9.0625rem; }
     .our-best-client-section h2 {
       font-size: 2.875rem;
       padding-bottom: 1.25rem; }
     .our-best-client-section .full-update-section p::after {
-      margin-left: 43.6875rem;
-      margin-top: 2.25rem; }
+      margin-left: 9.6875rem; }
   .our-best-client-section img {
     padding: 0.625rem 1.25rem 0.625rem 1.25rem; }
     .our-best-client-section .image-container-one a {
@@ -1003,9 +1095,9 @@ header {
       padding-bottom: 1.25rem;
       font-size: 1.625rem; }
     .new-area .latest-news p::after {
-      display: block;
-      left: 31.8125rem;
-      width: 7.8125rem; }
+      left: 32.5rem;
+      width: 7.8125rem;
+      top: 2.8125rem; }
     .about-us-section-one {
       padding-left: 12.5rem;
       padding-right: 12.5rem; }
@@ -1016,7 +1108,7 @@ header {
         font-size: 1.625rem;
         margin-top: 1.375rem; }
       .about-us-section-one .headline-text p::after {
-        top: 1.25rem;
+        top: 2.8125rem;
         left: 19.125rem;
         width: 7.8125rem; }
       .about-us-section-one .image-container img {
