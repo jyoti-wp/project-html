@@ -454,7 +454,7 @@ header {
   align-items: center; }
 
 .our-best-client-section .kc-row-container {
-  background-image: url("/assets/images/our-best-clients/our-client-background.jpg");
+  background-image: url();
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50%; }
@@ -1098,6 +1098,31 @@ header {
       left: 32.5rem;
       width: 7.8125rem;
       top: 2.8125rem; }
+  .new-area .latest-update-image-area {
+    padding: 0px 8.75rem 3.125rem; }
+    .new-area .latest-image img {
+      width: 30.625rem;
+      height: 19.375rem; }
+    .new-area .advertisment-section {
+      padding-top: 1.875rem; }
+    .new-area .advertisment-section h5 {
+      font-size: 1.625rem;
+      text-align: inherit; }
+    .new-area .article-section {
+      font-size: 1.125rem;
+      padding-bottom: 0.625rem; }
+    .new-area .paragraph p {
+      font-size: 1.25rem;
+      line-height: 1.875rem;
+      margin-right: 3.125rem; }
+    .new-area .btn-default {
+      font-size: 1.125rem;
+      padding: 0.9375rem 2.1875rem;
+      border-radius: 3.125rem;
+      margin-top: 2.1875rem; }
+    .new-area .latest-update-image-section-three {
+      display: inline;
+      padding-top: 5rem; }
     .about-us-section-one {
       padding-left: 12.5rem;
       padding-right: 12.5rem; }

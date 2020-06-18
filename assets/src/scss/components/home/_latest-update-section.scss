@@ -85,6 +85,11 @@
         @media screen and (min-width: $tablet) {
             display: flex;
         }
+
+
+        @media screen and (min-width: $desktop) {
+            padding: 0px 140px 50px;
+        }
     }
     
     
@@ -100,6 +105,8 @@
             margin-right: 0;
 
         }
+
+
     }
 
     .latest-image {
@@ -112,6 +119,12 @@
 
         @media screen and (min-width: $tablet) {
             width: 100%;
+
+        }
+
+        @media screen and (min-width: $desktop) {
+            width: 490px;
+            height: 310px
         }
 
     }
@@ -125,6 +138,11 @@
         border: 1px solid #eaeaea;
         margin-top: -7px;
 
+
+        @media screen and (min-width: $desktop) {
+            padding-top: 30px;
+        }
+
     }
 
     .advertisment-section h5 {
@@ -132,6 +150,13 @@
         text-align: center;
         line-height: 1.2em;
         text-transform: capitalize;
+
+
+        @media screen and (min-width: $desktop) {
+            font-size: 26px;
+            text-align: inherit;
+
+        }
 
     }
 
@@ -149,6 +174,11 @@
     .article-section {
         font-size: 14px;
         font-weight: 600;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
     }
 
     .article-section > a {
@@ -175,6 +205,13 @@
         margin-right: 10px;
         margin-top: 15px;
 
+
+        @media screen and (min-width: $desktop) {
+            font-size: 20px;
+            line-height: 30px;
+            margin-right: 50px;
+        }
+
     }
 
     .btn-default {
@@ -191,6 +228,14 @@
         border-radius: 20px;
         display: inline-block;
         margin-top: 25px;
+
+
+        @media screen and (min-width: $desktop) {
+            font-size: 18px;
+            padding: 15px 35px;
+            border-radius: 50px;
+            margin-top: 35px;
+        }
     }
 
 
@@ -207,19 +252,28 @@
             padding-bottom: 40px;
             display: inline;
             }
+
+
     }
 
 
-            // latest   update    image    section    two    area 
+            // latest   update    image    section    three    area 
 
 
 
     .latest-update-image-section-three {
         display: none;
+
+
+        @media screen and (min-width: $desktop) {
+            display: inline;
+            padding-top: 80px;
+
+        } 
     }
 
 
-            // latest   update    image    section    two    area 
+            // latest   update    image    section    four   area 
 
 
 
