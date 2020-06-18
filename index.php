@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
+	<head>
 	<meta charset="UTF-8">
 	<meta name="viewport"
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -16,21 +16,21 @@
 	<script type="text/javascript" src="assets/library/slick/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="assets/library/slick/slick.min.js"></script>
 
-</head>
-<body>
-<?php include_once 'templates/layouts/header.php'; ?>
-<?php include_once 'templates/home/our-service.php'; ?>
-<?php include_once 'templates/home/main-image-area.php'; ?>
-<?php include_once 'templates/home/about-us-section.php'; ?>
-<?php include_once 'templates/home/likes-section.php'; ?>
-<?php include_once 'templates/home/latest-update-section.php'; ?>
-<?php include_once 'templates/home/client-section.php'; ?>
-<?php include_once 'templates/home/contact-us-section.php'?>
-<?php include_once 'templates/home/map-section.php'; ?>
-<?php include_once 'templates/home/get-in-touch-area-secton.php'; ?>
-<?php include_once 'templates/layouts/footer.php'?>
+	</head>
+	<body>
+		<?php include_once 'templates/layouts/header.php'; ?>
+		<?php include_once 'templates/home/our-service.php'; ?>
+		<?php include_once 'templates/home/main-image-area.php'; ?>
+		<?php include_once 'templates/home/about-us-section.php'; ?>
+		<?php include_once 'templates/home/likes-section.php'; ?>
+		<?php include_once 'templates/home/latest-update-section.php'; ?>
+		<?php include_once 'templates/home/client-section.php'; ?>
+		<?php include_once 'templates/home/contact-us-section.php'?>
+		<?php include_once 'templates/home/map-section.php'; ?>
+		<?php include_once 'templates/home/get-in-touch-area-secton.php'; ?>
+		<?php include_once 'templates/layouts/footer.php'?>
 
 
-<script src="assets/build/js/main.js"></script>
-</body>
+	<script src="assets/build/js/main.js"></script>
+	</body>
 </html>

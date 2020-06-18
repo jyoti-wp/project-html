@@ -19,6 +19,6 @@
             <li class="page_item page-item-683">
                 <a href="http://wp.efforttech.net/newwp/sigma/shop/">Shop</a>
             </li>
-            </ul>
+        </ul>
     </div>
 </div>

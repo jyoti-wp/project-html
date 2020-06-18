@@ -1149,6 +1149,8 @@ header {
       .about-us-section-one .check-list li {
         padding-bottom: 0.625rem;
         font-size: 1.375rem; }
+      .likes-section .full-section-overlay {
+        background-attachment: fixed; }
     .likes-section .update-counter {
       padding: 5rem 5rem 1.25rem 0px; }
       .likes-section .counter-value {

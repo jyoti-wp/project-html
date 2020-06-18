@@ -13,7 +13,6 @@
 
     }
     
-
     .about-us-container {
         margin-right: 15px;
         margin-left: 15px;
@@ -23,7 +22,6 @@
     .headline-text-two {
         margin-top: 20px;
     }
-
 
     .headline-text h2 {
         font-size: 36px;
@@ -39,7 +37,6 @@
             line-height: 50px;
         }
     }
-
 
     .headline-text p{
         margin: 10px 0;
@@ -83,7 +80,6 @@
 
 // image area section style
 
-
     .image-area-section {
 
         
@@ -97,7 +93,6 @@
 
     }
 
-
     .image-container {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -106,9 +101,6 @@
             padding-top: 0px;
         }
     }
-
-
-
 
     .image-container img {
         vertical-align: middle;
@@ -127,10 +119,7 @@
 
     }
 
-
     // headline text area two
-
-
 
     .about-us-section-two {
 
@@ -169,7 +158,6 @@
         }
     }
 
-
     .headline-text-two p {
         margin-bottom: 20px;
         color: #4e4e4e;
@@ -183,7 +171,6 @@
         }
 
     }
-
 
     .check-list {
         list-style: none;
@@ -212,4 +199,5 @@
         transform: rotate(45deg);
         content: "";
     }
+
 }

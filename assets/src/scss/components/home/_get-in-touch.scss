@@ -1,6 +1,5 @@
 .text-area-final {
-
-    // mobile view
+                         // mobile view
     padding-left: 10px;
     padding-right: 10px;
     
@@ -34,7 +33,6 @@
         }
     }
 
-
     .message-area h5 {
         margin-bottom: 8px;
         font-size: 20px;
@@ -58,13 +56,13 @@
         padding: 40px;
     }
 
-
     .action-page {
         
         @media screen and (min-width: $desktop) {
             display: flex;
         }
     }
+
     .form-action-page {
 
         @media screen and (min-width: $desktop) {
@@ -146,10 +144,7 @@
         
     }
 
-
-
         // get in touch area section
-
 
     .get-in-touch-section{
         position: relative;

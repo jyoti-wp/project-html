@@ -1,12 +1,11 @@
 .new-area {
 
     // mobile section
-
-
     @media screen and (min-width: $tablet) {
         padding-top: 50px;
     }
 
+                    // latest news and update section 
 
     .latest-news h2 {
         font-size: 36px;
@@ -15,13 +14,11 @@
         text-transform: uppercase;
         color: #212121;
 
-
         @media screen and (min-width: $tablet){
             font-size: 40px;
             line-height: 50px;
             margin-bottom: 15px;
         }
-
 
         @media screen and (min-width: $desktop) {
             font-size: 46px;
@@ -42,7 +39,6 @@
 
         }
 
-
         @media screen and (min-width: $desktop) {
             padding-bottom: 20px;
             font-size: 26px;
@@ -60,11 +56,9 @@
         display: block;
         margin-left: 135px;
 
-
         @media screen and (min-width: $tablet) {
             margin-left: 335px;
         }
-
 
         @media screen and (min-width: $desktop) {
             left: 520px;
@@ -73,12 +67,7 @@
         }
     }
 
-
-
-
-
                 // latest   update   section   one    area 
-
 
     .latest-update-image-area {
 
@@ -86,13 +75,10 @@
             display: flex;
         }
 
-
         @media screen and (min-width: $desktop) {
             padding: 0px 140px 50px;
         }
     }
-    
-    
 
     .latest-update-image-section-one {
         padding-top: 80px;
@@ -100,12 +86,10 @@
         margin-right: 25px;
         padding-bottom: 40px;
 
-
         @media screen and (min-width: $tablet) {
             margin-right: 0;
 
         }
-
 
     }
 
@@ -115,7 +99,6 @@
 
     .latest-image img {
         width: 325px;
-
 
         @media screen and (min-width: $tablet) {
             width: 100%;
@@ -129,15 +112,12 @@
 
     }
 
-
                     // advertisment section start
-
 
     .advertisment-section {
         padding: 30px 20px;
         border: 1px solid #eaeaea;
         margin-top: -7px;
-
 
         @media screen and (min-width: $desktop) {
             padding-top: 30px;
@@ -151,7 +131,6 @@
         line-height: 1.2em;
         text-transform: capitalize;
 
-
         @media screen and (min-width: $desktop) {
             font-size: 26px;
             text-align: inherit;
@@ -160,14 +139,10 @@
 
     }
 
-
-
     .advertisment-section h5 a {
         color: #212121;
 
-
     }
-
 
                             // article section
 
@@ -187,7 +162,6 @@
 
     }
 
-    
     .author {
         border-right: 1px solid;
         padding-right: 10px;
@@ -198,13 +172,11 @@
         padding-left: 10px;
     }
 
-    
     .paragraph p {
         color: #4e4e4e;
         line-height: 22px;
         margin-right: 10px;
         margin-top: 15px;
-
 
         @media screen and (min-width: $desktop) {
             font-size: 20px;
@@ -229,7 +201,6 @@
         display: inline-block;
         margin-top: 25px;
 
-
         @media screen and (min-width: $desktop) {
             font-size: 18px;
             padding: 15px 35px;
@@ -238,10 +209,9 @@
         }
     }
 
-
-
             // latest   update    image    section    two    area  
 
+       
     .latest-update-image-section-two {
         display: none;
 
@@ -253,17 +223,12 @@
             display: inline;
             }
 
-
     }
-
 
             // latest   update    image    section    three    area 
 
-
-
     .latest-update-image-section-three {
         display: none;
-
 
         @media screen and (min-width: $desktop) {
             display: inline;
@@ -272,17 +237,10 @@
         } 
     }
 
-
             // latest   update    image    section    four   area 
-
-
-
 
     .latest-update-image-section-four {
         display: none;
     }
 
-
-
-    
 }

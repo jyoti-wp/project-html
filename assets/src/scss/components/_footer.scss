@@ -53,7 +53,7 @@
             padding-right: 15px;
             padding-left: 15px;
         }
-        }
+    }
     
     .text-area h5 {
         color: #fff;
@@ -162,6 +162,9 @@
             padding-left: 15px;
         }
     }
+    
+
+
 
     .recent-post-area h6{
         color: #fff;
@@ -179,6 +182,10 @@
         }
     }
 
+
+
+
+
     .recent-post-area h6::after{
         position: absolute;
         bottom: -2px;
@@ -190,11 +197,17 @@
         background: linear-gradient(90deg,#26d0ce,#1a2980);
     }
 
+
+
+
     .image-area-section {
         display: flex;
         margin-top: 10px;
 
     }
+
+
+
 
     .image-area img {
 
@@ -208,6 +221,8 @@
             padding-left: 15px;
         }
     }
+
+
 
     .new-trend-area > a {
         color: #fff;
@@ -229,12 +244,17 @@
         }
     }
 
+                    // post details area
+
     .post-details {
         
         @media screen and (min-width: $desktop) {
             padding-top: 10px;
         }
     }
+
+
+
 
     .post-details > a{
         color: #26d0ce;
@@ -256,9 +276,15 @@
 
     }
 
+
+
+                // date area 
+
     .date-area{
     
     }
+
+
 
     .date-area a{
         color: #8f8f8f;
@@ -285,10 +311,11 @@
     hr {
         color: rgba(255,255,255,.1);
         border: 1px solid;
+
     }
 
 
-    // useful links area
+                        // useful links area
 
     .useful-links-area {
         padding-top: 40px;
@@ -302,6 +329,9 @@
             padding-left: 15px;
         }
     }
+
+
+
 
     .useful-links-area h5 {
         color: #fff;
@@ -319,6 +349,8 @@
         }
     }
 
+
+
     .useful-links-area h5::after {
         position: absolute;
         bottom: -2px;
@@ -331,9 +363,13 @@
 
     }
 
+
+
     .useful-links{
         padding-left: 15px;
     }
+
+
 
     .useful-links li {
         position: relative;
@@ -350,6 +386,9 @@
         }
     }
 
+
+
+
     .useful-links a{
         text-decoration: none;
         color: white;
@@ -361,6 +400,8 @@
             padding-left: 20px; 
         }
     }
+
+
 
     .useful-links a::before{
         position: absolute;
@@ -378,6 +419,9 @@
         }
     }
 
+
+                    // media gallery section area 
+
     .media-gallery {
 
 
@@ -386,6 +430,9 @@
             padding-left: 15px;
         }
     }
+
+
+
 
     .media-gallery h5 {
         color: #fff;
@@ -406,6 +453,8 @@
         }
     }
 
+
+
     .media-gallery h5::after{
             position: absolute;
             bottom: -2px;
@@ -419,6 +468,8 @@
     }
 
 
+                    // gallery items area 
+
 
     .gallery-items-landscape {
         display: flex;
@@ -428,6 +479,8 @@
         grid-template-columns: repeat(3, 3fr);
         grid-gap: 1px;
     }
+
+
 
     .gallery-items-landscape img {
         width: 110px    ;
@@ -447,13 +500,17 @@
         }
     
     }
-// final footer area section
+
+
+                // final footer area section
 
     .final-footer {
         background: #26272c;
         color: #fff;
         padding: none;
     }
+
+
 
     .final-footer-social-icons {
         padding-top: 5px;
@@ -465,6 +522,12 @@
             padding-top: 20px;
         }
     }
+
+
+
+                    // final footer socila icons section 
+
+
 
     .final-footer-social-icons > a {
         display: inline-block;
@@ -480,11 +543,15 @@
         }
     }
 
+
+
     .final-footer-social-icons a i {
         padding-top: 10px;
         padding-left: 15px;
         
     }
+
+                        // template and text area 
 
     .template-text-area{
         padding-bottom: 15px;
@@ -495,6 +562,8 @@
             padding-bottom: 30px;
         }
     }
+
+
 
     .template-text-area h5{
         color: #8f8f8f;
@@ -517,10 +586,11 @@
     }   
 
 
-.template-text-area a {
+
+    .template-text-area a {
     color: #26d0ce;
     
     }
 
     
-    }
+}

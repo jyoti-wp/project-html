@@ -3,18 +3,28 @@
     padding: 85px 0px;
 
 
+
     @media screen and (min-width: $tablet) {
         padding: 40px 0px;
 
 
     }
-    
+
+
+
     .full-section-overlay {
     background-image: url("http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-5.jpg");
     background-repeat: no-repeat;
 
 
+    @media screen and (min-width: $desktop) {
+        background-attachment: fixed;
     }
+
+
+    }
+
+
 
     .update-counter {
 
@@ -29,12 +39,15 @@
         }
     }
 
+
+
     .full-section-container {
         background: #1a2980;
         opacity: 0.8;
         padding: 100px 0 150px;
         font-size: 64px;
     }
+
 
 
     .counter-value {
@@ -50,6 +63,8 @@
             font-size: 80px;
         }
     }
+
+
 
     .counter-value::before {
         position: absolute;
@@ -71,6 +86,8 @@
 
     }
 
+
+
     .counter-details {
         position: relative;
         color: #fff;
@@ -86,4 +103,6 @@
 
         }
     }
+
+    
 }
