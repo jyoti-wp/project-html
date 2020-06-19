@@ -1,3 +1,109 @@
 .portfolio {
-    
+                // mobile view
+    .portfolio {
+
+    }
+
+    .portfolio-items {
+        margin-top: -50px;
+        padding-top: 100px;
+
+        @media screen and (min-width: $tablet) {
+            
+        }
+    }
+
+    .portfolio-item-thumbnail {
+        width: 100%;
+    }
+
+    .image-area-thumbnail-section {
+        width: 100%;
+
+        @media screen and (min-width: $tablet) {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+    }
+
+    img {
+        object-fit: cover;
+
+        @media screen and (min-width: $tablet) {
+            width: 100%;
+        }
+    }
+
+    .image-section-one {
+        width: 375px;
+        height: 750px;
+
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 384px;
+        }
+    }
+
+
+    .image-section-two {
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 192px;
+        }
+    }
+
+
+    .image-section-three {
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 192px;
+        }
+    }
+
+    .image-section-four {
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 192px;
+        }
+    }
+
+    .image-section-five {
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 192px;
+        }
+    }
+
+    .image-section-six {
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 384px;
+            height: 384px;
+        }
+    }
+
+    .image-section-seven {
+        width: 375px;
+        height: 190px;
+
+        @media screen and (min-width: $tablet) {
+            width: 384px;
+            height: 192px;
+        }
+    }
 }

@@ -747,7 +747,50 @@ header {
     font-size: 1rem;
     transition: all .5s ease-in;
     margin-top: 1.25rem; }
-  @media screen and (min-width: 768px) {
+
+.portfolio .portfolio-items {
+  margin-top: -3.125rem;
+  padding-top: 6.25rem; }
+
+.portfolio .portfolio-item-thumbnail {
+  width: 100%; }
+
+.portfolio .image-area-thumbnail-section {
+  width: 100%; }
+
+.portfolio img {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.portfolio .image-section-one {
+  width: 23.4375rem;
+  height: 46.875rem; }
+
+.portfolio .image-section-two {
+  width: 23.4375rem;
+  height: 23.4375rem; }
+
+.portfolio .image-section-three {
+  width: 23.4375rem;
+  height: 23.4375rem; }
+
+.portfolio .image-section-four {
+  width: 23.4375rem;
+  height: 23.4375rem; }
+
+.portfolio .image-section-five {
+  width: 23.4375rem;
+  height: 23.4375rem; }
+
+.portfolio .image-section-six {
+  width: 23.4375rem;
+  height: 23.4375rem; }
+
+.portfolio .image-section-seven {
+  width: 23.4375rem;
+  height: 11.875rem; }
+
+@media screen and (min-width: 768px) {
     .footer .main-footer {
       padding: 6.25rem 0;
       padding-left: 1.25rem;
@@ -857,8 +900,35 @@ header {
     .likes-section .update-counter {
       display: flex;
       justify-content: space-evenly;
-      padding-right: 3.75rem; } }
-  @media screen and (min-width: 1200px) {
+      padding-right: 3.75rem; }
+    .portfolio .image-area-thumbnail-section {
+      display: grid;
+      grid-template-columns: auto auto auto auto; }
+    .portfolio img {
+      width: 100%; }
+    .portfolio .image-section-one {
+      width: 12rem;
+      height: 24rem; }
+    .portfolio .image-section-two {
+      width: 12rem;
+      height: 12rem; }
+    .portfolio .image-section-three {
+      width: 12rem;
+      height: 12rem; }
+    .portfolio .image-section-four {
+      width: 12rem;
+      height: 12rem; }
+    .portfolio .image-section-five {
+      width: 12rem;
+      height: 12rem; }
+    .portfolio .image-section-six {
+      width: 24rem;
+      height: 24rem; }
+    .portfolio .image-section-seven {
+      width: 24rem;
+      height: 12rem; } }
+
+@media screen and (min-width: 1200px) {
       header .header-main {
         display: flex;
         justify-content: space-between;
