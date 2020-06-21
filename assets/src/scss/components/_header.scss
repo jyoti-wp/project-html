@@ -1,36 +1,40 @@
+@import 'home/banner-slider';
+
+
 header {
 	// Mobile;
 
+
 	background-color: $header-background;
-	
+	position: relative;
+	height: 800px;
 
 	.header-main {
 		display: none;
 
-		@media screen and (min-width: $desktop)	{
+		@media screen and (min-width: $desktop) {
 			display: flex;
 			justify-content: space-between;
 			padding: 10px 150px;
 		}
-		
-	}
 
+	}
 
 	.header-logo {
 		display: none;
+		z-index: 1;
 
 		@media screen and (min-width: $desktop) {
 
 			padding-top: 20px;
-    		padding-bottom: 20px;
+			padding-bottom: 20px;
+			display: flex;
 		}
 
 	}
 
 
-
 	img {
-		display: none;
 
 		@media screen and (min-width: $desktop) {
 			width: 150px;
@@ -38,38 +42,31 @@ header {
 	}
 
 
-
 	nav {
+
 		display: none;
-
-		@media screen and (min-width: $tablet) {
-
-
-		}
 
 		@media screen and (min-width: $desktop) {
 
-			display: flex;
+			display: block;
 			padding-top: 1.25rem;
-    		padding-bottom: 1.25rem;
+			padding-bottom: 1.25rem;
 		}
 	}
-
 
 
 	.nav-wrap {
 		display: none;
-
+		position: relative;
 
 		@media screen and (min-width: $desktop) {
-			position: relative;
 			display: flex;
+			position: static;
 			padding-top: 20px;
 			padding-bottom: 20px;
 		}
-		
-	}
 
+	}
 
 
 	.nav-list-item {
@@ -77,48 +74,43 @@ header {
 	}
 
 
+	.nav-list-item li {
 
-	.nav-list-item li{
-		
 	}
 
 
-
 	.nav-list-item > a {
-		display: none;
 
+		display: none;
+		font-size: 22px;
 
 		@media screen and (min-width: $desktop) {
 			color: $white;
 			position: relative;
 			z-index: 1;
-			padding: 30px 20px 19px 10px;
 			font-weight: 500;
-			font-size: 22px;
+			font-size: 16px;
 			text-decoration: none;
 			list-style: none;
-			padding-right: 35px;
+			padding: 30px 35px 19px 10px;
 			text-transform: capitalize;
+			display: flex;
 		}
 	}
 
 
 	.quote-btn {
 		display: none;
-
-
-
 		@media screen and (min-width: $desktop) {
 
 			margin-left: 55px;
+			display: flex;
 		}
 	}
 
 
-
 	.quote-btn > a {
 		display: none;
-
 
 
 		@media screen and (min-width: $desktop) {
@@ -128,12 +120,12 @@ header {
 			line-height: 40px;
 			border-radius: 50px;
 			display: block;
-			box-shadow: 0 0 5px rgba(0,0,0,.1);
+			box-shadow: 0 0 5px rgba(0, 0, 0, .1);
 			background: #26d0ce;
 			color: #fff;
 			font-size: 18px;
 			font-weight: 500;
-			font-family: Poppins,sans-serif;
+			font-family: Poppins, sans-serif;
 			text-align: center;
 			-webkit-transition: all .25s;
 			transition: all .25s;

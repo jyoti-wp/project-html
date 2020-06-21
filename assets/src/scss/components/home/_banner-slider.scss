@@ -1,0 +1,74 @@
+
+.banner-slider-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 800px;
+	width: 100vw;
+
+	.slick-list,
+	.slick-track {
+		height: 100%;
+	}
+
+	.banner-content {
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.slick-arrow {
+		display: block;
+		z-index: 13;
+
+		&::before {
+			font-size: 65px;
+		}
+	}
+
+	.slick-arrow.slick-prev {
+		left: 20px;
+	}
+
+	.slick-arrow.slick-next {
+		right: 50px;
+	}
+}
+
+.banner-slider-wrap {
+	color: $white;
+	height: 100%;
+
+	.banner-one,
+	.banner-two {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.banner-one {
+		background-repeat: no-repeat;
+		background-image: url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-slide-1.jpg);
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		visibility: inherit;
+		z-index: 20;
+	}
+
+	.banner-two {
+		background-repeat: no-repeat;
+		background-image: url(http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-slide-2.jpg);
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+		visibility: inherit;
+		z-index: 20;
+	}
+}

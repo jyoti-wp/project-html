@@ -37,4 +37,5 @@
 			</nav>
 		</div>
 	</div>
-</header>	
+	<?php include_once 'templates/home/banner-slider.php'; ?>
+</header>
