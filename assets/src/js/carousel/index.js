@@ -18,7 +18,7 @@
 			infinite: true,
 			speed: 100,
 			slidesToShow: 1,
-			autoplay: true,
+			autoplay: false,
 			arrows: true
 		});
 	} );

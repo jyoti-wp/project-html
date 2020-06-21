@@ -4,13 +4,30 @@
 header {
 	// Mobile;
 
+	.wrapper {
+		position: absolute;
+		height: 100px;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		overflow: hidden;
+		z-index: 1;
+		box-shadow: 0 0 29px rgba(26,41,128,.4);
+
+		@media screen and (min-width: $desktop) {
+			box-shadow: none;
+		}
+
+
+	}
 
 	background-color: $header-background;
 	position: relative;
 	height: 800px;
 
 	.header-main {
-		display: none;
+
+		height: 100%;
 
 		@media screen and (min-width: $desktop) {
 			display: flex;
@@ -21,8 +38,10 @@ header {
 	}
 
 	.header-logo {
-		display: none;
 		z-index: 1;
+		height: 100%;
+		display: flex;
+		align-items: center;
 
 		@media screen and (min-width: $desktop) {
 
@@ -31,16 +50,17 @@ header {
 			display: flex;
 		}
 
-	}
+		img {
+			width: 100px;
+			height: auto;
 
-
-	img {
-
-		@media screen and (min-width: $desktop) {
-			width: 150px;
+			@media screen and (min-width: $desktop) {
+				width: 150px;
+			}
 		}
-	}
 
+
+	}
 
 	nav {
 
