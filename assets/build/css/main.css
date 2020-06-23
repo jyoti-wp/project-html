@@ -75,15 +75,31 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column; }
+    .banner-slider-container .banner-content h2 {
+      font-size: 2rem;
+      line-height: 2.5rem; }
+    .banner-slider-container .banner-content p {
+      font-size: 1rem;
+      text-align: center;
+      font-weight: 200; }
+  .banner-slider-container button {
+    background-color: #1a2980;
+    color: #fff;
+    border-radius: 1.875rem;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    padding: 0.75rem 1.9375rem 0.9375rem;
+    font-size: 1.25rem;
+    border: #1a2980;
+    margin-top: 2.8125rem; }
   .banner-slider-container .slick-arrow {
-    display: block;
-    z-index: 13; }
+    display: none; }
     .banner-slider-container .slick-arrow::before {
-      font-size: 4.0625rem; }
+      display: none; }
   .banner-slider-container .slick-arrow.slick-prev {
-    left: 1.25rem; }
+    display: none; }
   .banner-slider-container .slick-arrow.slick-next {
-    right: 3.125rem; }
+    display: none; }
 
 .banner-slider-wrap {
   color: #fff;
@@ -117,7 +133,8 @@ body {
 header {
   background-color: #4074A3;
   position: relative;
-  height: 50rem; }
+  height: 50rem;
+  background-repeat: no-repeat; }
   header .wrapper {
     position: absolute;
     height: 6.25rem;
@@ -129,26 +146,34 @@ header {
     box-shadow: 0 0 1.8125rem rgba(26, 41, 128, 0.4); }
   header .header-main {
     height: 100%; }
-  header .header-logo {
-    z-index: 1;
-    height: 100%;
-    display: flex;
-    align-items: center; }
-    header .header-logo img {
-      width: 6.25rem;
-      height: auto; }
-  header nav {
-    display: none; }
+    header .header-main .header-logo {
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      header .header-main .header-logo img {
+        width: 6.25rem;
+        height: auto; }
   header .nav-wrap {
     display: none;
     position: relative; }
-  header .nav-list-item > a {
-    display: none;
-    font-size: 1.375rem; }
   header .quote-btn {
     display: none; }
   header .quote-btn > a {
-    display: none; }
+    display: none;
+    width: 14.0625rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 3.125rem;
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1);
+    background: #26d0ce;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-align: center;
+    transition: all .25s;
+    text-decoration: none;
+    padding: 0.625rem; }
 
 .footer .main-footer {
   background-color: #2d313c;
@@ -525,7 +550,7 @@ header {
   align-items: center; }
 
 .our-best-client-section .kc-row-container {
-  background-image: url();
+  background-image: url("/assets/images/our-best-clients/our-client-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50%; }
@@ -827,41 +852,59 @@ header {
   width: 100%; }
 
 .portfolio .image-area-thumbnail-section {
-  width: 100%; }
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat; }
 
 .portfolio img {
   -o-object-fit: cover;
      object-fit: cover; }
 
-.portfolio .image-section-one {
+.portfolio .image-section-one img {
   width: 23.4375rem;
   height: 46.875rem; }
 
-.portfolio .image-section-two {
+.portfolio .image-section-two img {
   width: 23.4375rem;
   height: 23.4375rem; }
 
-.portfolio .image-section-three {
+.portfolio .image-section-three img {
   width: 23.4375rem;
   height: 23.4375rem; }
 
-.portfolio .image-section-four {
+.portfolio .image-section-four img {
   width: 23.4375rem;
   height: 23.4375rem; }
 
-.portfolio .image-section-five {
+.portfolio .image-section-five img {
   width: 23.4375rem;
   height: 23.4375rem; }
 
-.portfolio .image-section-six {
+.portfolio .image-section-six img {
   width: 23.4375rem;
   height: 23.4375rem; }
 
-.portfolio .image-section-seven {
+.portfolio .image-section-seven img {
   width: 23.4375rem;
   height: 11.875rem; }
 
 @media screen and (min-width: 768px) {
+        .banner-slider-container .banner-content h2 {
+          font-weight: 700;
+          font-size: 2rem;
+          line-height: 4.4375rem; }
+        .banner-slider-container .banner-content p {
+          font-size: 1.125rem;
+          line-height: 1.875rem; }
+      .banner-slider-container button {
+        padding: 0.625rem 1.25rem;
+        font-size: 0.875rem;
+        font-weight: 700; }
+    header {
+      margin-bottom: 5rem; }
+          header .header-main .header-logo img {
+            width: 7.5rem;
+            padding-left: 1.875rem; }
     .footer .main-footer {
       padding: 6.25rem 0;
       padding-left: 1.25rem;
@@ -977,81 +1020,88 @@ header {
       grid-template-columns: auto auto auto auto; }
     .portfolio img {
       width: 100%; }
-    .portfolio .image-section-one {
+    .portfolio .image-section-one img {
       width: 12rem;
       height: 24rem; }
-    .portfolio .image-section-two {
+    .portfolio .image-section-two img {
       width: 12rem;
       height: 12rem; }
-    .portfolio .image-section-three {
+    .portfolio .image-section-three img {
       width: 12rem;
       height: 12rem; }
-    .portfolio .image-section-four {
+    .portfolio .image-section-four img {
       width: 12rem;
       height: 12rem; }
-    .portfolio .image-section-five {
+    .portfolio .image-section-five img {
       width: 12rem;
       height: 12rem; }
-    .portfolio .image-section-six {
+    .portfolio .image-section-six img {
       width: 24rem;
       height: 24rem; }
-    .portfolio .image-section-seven {
+    .portfolio .image-section-seven img {
       width: 24rem;
       height: 12rem; } }
 
 @media screen and (min-width: 1200px) {
+        .banner-slider-container .banner-content h2 {
+          font-size: 2.8125rem;
+          text-align: center;
+          line-height: 5.3125rem;
+          font-weight: 700;
+          margin-top: 11.875rem; }
+        .banner-slider-container .banner-content p {
+          font-size: 1.5625rem;
+          line-height: 2.375rem; }
+      .banner-slider-container button {
+        line-height: 1.5rem;
+        padding: 1.125rem 2.5rem;
+        font-size: 1.125rem; }
+      .banner-slider-container .slick-arrow {
+        display: block;
+        z-index: 13; }
+        .banner-slider-container .slick-arrow::before {
+          font-size: 4.0625rem; }
+      .banner-slider-container .slick-arrow.slick-prev {
+        left: 1.25rem; }
+      .banner-slider-container .slick-arrow.slick-next {
+        right: 3.125rem; }
+    header {
+      display: block;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem; }
       header .wrapper {
         box-shadow: none; }
       header .header-main {
         display: flex;
         justify-content: space-between;
         padding: 0.625rem 9.375rem; }
-      header .header-logo {
-        padding-top: 1.25rem;
-        padding-bottom: 1.25rem;
-        display: flex; }
-        header .header-logo img {
-          width: 9.375rem; }
-      header nav {
-        display: block;
-        padding-top: 1.25rem;
-        padding-bottom: 1.25rem; }
+        header .header-main .header-logo {
+          padding-top: 1.25rem;
+          padding-bottom: 1.25rem;
+          display: flex; }
+          header .header-main .header-logo img {
+            width: 9.375rem; }
       header .nav-wrap {
         display: flex;
         position: static;
         padding-top: 1.25rem;
         padding-bottom: 1.25rem; }
-      header .nav-list-item > a {
-        color: #fff;
-        position: relative;
-        z-index: 1;
-        font-weight: 500;
-        font-size: 1rem;
-        text-decoration: none;
-        list-style: none;
-        padding: 1.875rem 2.1875rem 1.1875rem 0.625rem;
-        text-transform: capitalize;
-        display: flex; }
+    header .nav-list-item > a {
+      color: #fff;
+      position: relative;
+      z-index: 1;
+      font-weight: 500;
+      font-size: 1.25rem;
+      padding: 1.1875rem 1.25rem 1.1875rem 0.625rem;
+      text-decoration: none;
+      list-style: none;
+      text-transform: capitalize;
+      display: flex; }
       header .quote-btn {
         margin-left: 3.4375rem;
         display: flex; }
       header .quote-btn > a {
-        position: relative;
-        width: 14.0625rem;
-        height: 2.5rem;
-        line-height: 2.5rem;
-        border-radius: 3.125rem;
-        display: block;
-        box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1);
-        background: #26d0ce;
-        color: #fff;
-        font-size: 1.125rem;
-        font-weight: 500;
-        font-family: Poppins, sans-serif;
-        text-align: center;
-        transition: all .25s;
-        text-decoration: none;
-        padding: 0.625rem; }
+        display: block; }
     .footer .main-footer {
       padding: 9.375rem 0px; }
   .footer .footer-area-grid {

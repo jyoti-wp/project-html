@@ -1,9 +1,21 @@
 @import 'home/banner-slider';
-
-
 header {
 	// Mobile;
+	background-color: $header-background;
+	position: relative;
+	height: 800px;
+	background-repeat: no-repeat;
 
+	@media screen and (min-width: $tablet) {
+		margin-bottom: 80px;
+	}
+
+	@media screen and (min-width: $desktop) {
+
+		display: block;
+		padding-top: 1.25rem;
+		padding-bottom: 1.25rem;
+	}
 	.wrapper {
 		position: absolute;
 		height: 100px;
@@ -17,13 +29,7 @@ header {
 		@media screen and (min-width: $desktop) {
 			box-shadow: none;
 		}
-
-
 	}
-
-	background-color: $header-background;
-	position: relative;
-	height: 800px;
 
 	.header-main {
 
@@ -35,123 +41,93 @@ header {
 			padding: 10px 150px;
 		}
 
-	}
-
-	.header-logo {
-		z-index: 1;
-		height: 100%;
-		display: flex;
-		align-items: center;
-
-		@media screen and (min-width: $desktop) {
-
-			padding-top: 20px;
-			padding-bottom: 20px;
+		.header-logo {
+			z-index: 1;
+			height: 100%;
 			display: flex;
-		}
-
-		img {
-			width: 100px;
-			height: auto;
-
+			align-items: center;
+	
 			@media screen and (min-width: $desktop) {
-				width: 150px;
+	
+				padding-top: 20px;
+				padding-bottom: 20px;
+				display: flex;
+			}
+
+			img {
+				width: 100px;
+				height: auto;
+
+				@media screen and (min-width: $tablet) {
+					width: 120px;
+					padding-left: 30px;
+				}
+	
+				@media screen and (min-width: $desktop) {
+					width: 150px;
+				}
 			}
 		}
 
-
 	}
-
-	nav {
-
-		display: none;
-
-		@media screen and (min-width: $desktop) {
-
-			display: block;
-			padding-top: 1.25rem;
-			padding-bottom: 1.25rem;
-		}
-	}
-
 
 	.nav-wrap {
-		display: none;
-		position: relative;
+	display: none;
+	position: relative;
 
-		@media screen and (min-width: $desktop) {
+	@media screen and (min-width: $desktop) {
 			display: flex;
 			position: static;
 			padding-top: 20px;
 			padding-bottom: 20px;
-		}
+		}	
 
 	}
-
-
-	.nav-list-item {
-
-	}
-
-
-	.nav-list-item li {
-
-	}
-
 
 	.nav-list-item > a {
-
-		display: none;
-		font-size: 22px;
 
 		@media screen and (min-width: $desktop) {
 			color: $white;
 			position: relative;
 			z-index: 1;
 			font-weight: 500;
-			font-size: 16px;
+			font-size: 20px;
+    		padding: 19px 20px 19px 10px;
 			text-decoration: none;
 			list-style: none;
-			padding: 30px 35px 19px 10px;
 			text-transform: capitalize;
 			display: flex;
 		}
 	}
 
-
 	.quote-btn {
 		display: none;
-		@media screen and (min-width: $desktop) {
 
+		@media screen and (min-width: $desktop) {
 			margin-left: 55px;
 			display: flex;
 		}
 	}
 
-
 	.quote-btn > a {
 		display: none;
-
+		width: 225px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 50px;
+		box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+		background: #26d0ce;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 500;
+		text-align: center;
+		-webkit-transition: all .25s;
+		transition: all .25s;
+		text-decoration: none;
+		padding: 10px;
 
 		@media screen and (min-width: $desktop) {
-			position: relative;
-			width: 225px;
-			height: 40px;
-			line-height: 40px;
-			border-radius: 50px;
 			display: block;
-			box-shadow: 0 0 5px rgba(0, 0, 0, .1);
-			background: #26d0ce;
-			color: #fff;
-			font-size: 18px;
-			font-weight: 500;
-			font-family: Poppins, sans-serif;
-			text-align: center;
-			-webkit-transition: all .25s;
-			transition: all .25s;
-			text-decoration: none;
-			padding: 10px;
 		}
 	}
-
-}
+}	

@@ -17,25 +17,105 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+
+		h2 {
+
+			font-size: 32px;
+			line-height: 40px;
+
+			@media screen and (min-width: $tablet) {
+				font-weight: 700;
+				font-size: 32px;
+				line-height: 71px;
+
+			}
+
+			@media screen and (min-width: $desktop) {
+				font-size: 45px;
+				text-align: center;
+				line-height: 85px;
+				font-weight: 700;
+				margin-top: 190px;
+			}
+		}
+
+		p {
+			font-size: 16px;
+			text-align: center;
+			font-weight: 200;
+
+			@media screen and (min-width: $tablet) {
+				font-size: 18px;
+				line-height: 30px;
+			}
+
+			@media screen and (min-width: $desktop) {
+				font-size: 25px;
+				line-height: 38px;
+			}
+		}
+	}
+
+
+	button {
+		background-color: #1a2980;
+		color: #fff;
+		border-radius: 30px;
+		text-transform: uppercase;
+		line-height: 24px;
+		padding: 12px 31px 15px;
+		font-size: 20px;
+		border: #1a2980;
+		margin-top: 45px;
+		
+		@media screen and (min-width: $desktop) {
+			line-height: 24px;
+			padding: 18px 40px;
+			font-size: 18px;
+		}
+
+		@media screen and (min-width: $tablet) {
+			padding: 10px 20px;
+			font-size: 14px;
+			font-weight: 700;
+		}
 	}
 
 	.slick-arrow {
-		display: block;
-		z-index: 13;
+		display: none;
+
+		@media screen and (min-width: $desktop) {
+			display: block;
+			z-index: 13;
+		}
 
 		&::before {
-			font-size: 65px;
+			display: none;
+
+			@media screen and (min-width: $desktop) {
+				font-size: 65px;
+			}
 		}
 	}
 
 	.slick-arrow.slick-prev {
-		left: 20px;
+		display: none;
+
+		@media screen and (min-width: $desktop) {
+			left: 20px;
+		}
 	}
 
 	.slick-arrow.slick-next {
-		right: 50px;
+		display: none;
+
+		@media screen and (min-width: $desktop) {
+			right: 50px;
+		}
 	}
 }
+
+						// slick wrap area
 
 .banner-slider-wrap {
 	color: $white;

@@ -29,7 +29,7 @@
                 </div>
                 <!-- image area section seven-->
                 <div class="image-section-seven">
-                    <img src="assets/images/sigma-images/image-coffee.jpg" width="375" height="190" alt="Coffee mug">
+                    <img src="assets/images/sigma-images/image-coffee.jpg" alt="Coffee mug">
                 </div>
             </div>
         </div>
