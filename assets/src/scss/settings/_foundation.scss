@@ -1,0 +1,8 @@
+@import "~foundation-sites/scss/global";
+@import "~foundation-sites/scss/foundation";
+
+
+// Import Zurb Foundation Grid
+@include foundation-flex-grid;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
