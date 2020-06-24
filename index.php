@@ -30,7 +30,6 @@
 		<?php include_once 'templates/home/get-in-touch-area-secton.php'; ?>
 		<?php include_once 'templates/layouts/footer.php'?>
 
-
 	<script src="assets/build/js/main.js"></script>
 	</body>
 </html>
