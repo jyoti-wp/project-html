@@ -1482,6 +1482,9 @@ html {
     .footer .gallery-items-landscape img {
       width: 3.4375rem;
       height: auto; }
+    .our-services .main-container-section .medium-6 {
+      flex: 0 0 46%;
+      max-width: 46%; }
     .text-area-final .message-area-container {
       display: flex;
       padding-right: 0.9375rem;
@@ -1901,6 +1904,9 @@ html {
         height: 0.25rem; }
     .our-services .main-container-section {
       padding: 0.125rem 9.375rem; }
+      .our-services .main-container-section .large-4 {
+        flex: 0 0 30.33333%;
+        max-width: 30.33333%; }
       .our-services .common-container {
         padding: 2.5rem; }
       .our-services .sketch-area h5 {
