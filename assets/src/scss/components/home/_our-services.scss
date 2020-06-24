@@ -1,4 +1,6 @@
 .our-services{
+
+    margin-top: 80px;
     
     .headline-text-center h1{
     text-transform: uppercase;
@@ -16,13 +18,13 @@
     }
 
     .headline-text-center p{
-    margin: 10px 0;
-    color: #858585;
-    font-family: "Noto Serif",serif;
-    font-style: italic;
-    text-align: center;
-    font-size: 24px;
-
+        margin: 10px 0;
+        color: #858585;
+        font-family: "Noto Serif",serif;
+        font-style: italic;
+        text-align: center;
+        font-size: 18px;
+        position: relative;
 
         @media screen and (min-width: $desktop) {
         font-size: 26px;
@@ -30,4 +32,123 @@
         }
     }
 
+    .headline-text-center p::after {
+        position: absolute;
+        top: 40px;
+        display: inline-block;
+        width: 90px;
+        height: 3px;
+        background: linear-gradient(90deg,#26d0ce,#1a2980);
+        content: "";
+        margin-left: -144px;
+
+        @media screen and (min-width: $desktop) {
+            margin-left: -200px;
+            width: 120px;
+            top: 50px;
+            height: 4px;
+        }
+    }
+
+    .main-container-section {
+
+        @media screen and (min-width: $desktop) {
+            padding: 2px 150px;
+        }
+    }
+    .container-section-wrap {
+        display: flex;
+    }
+
+    .service-box-container {
+        padding: 60px 15px 0px;
+    }
+
+    .common-container {
+        box-shadow: 0 0 5px rgba(0,0,0,.1);
+        padding: 30px;
+        margin-bottom: 50px;
+        display: block;
+        color: #4e4e4e;
+        line-height: 1.5em;
+
+        @media screen and (min-width: $desktop) {
+            padding: 40px;
+        }
+    }
+
+    .sketch-area h5 {
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        list-style: none;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+
+        @media screen and (min-width: $desktop) {
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: #212121;
+
+            @media screen and (min-width: $desktop) {
+                font-size: 26px;
+            }
+        }
+    }
+
+    .sketch-area i {
+        display: block;
+        color: #555;
+        font-size: 55px;
+        line-height: 60px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 70px;
+            line-height: 85px;
+            margin-bottom: 40px;  
+        }
+    }
+
+    .text-area a {
+        position: relative;
+        color: #212121;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 18px;
+        }
+    }
+
+    .text-area i {
+        margin-left: 10px;
+    }
+
+    .text-area p {
+
+        @media screen and (min-width: $desktop) {
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 20px;
+
+            @media screen and (min-width: $desktop) {
+                line-height: 33px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .service-box-continer-one,
+    .service-box-continer-two,
+    .service-box-continer-three {
+
+        @media screen and (min-width: $desktop) {
+            padding: 10px;
+            padding-left: 10px;
+        }
+    }
 }

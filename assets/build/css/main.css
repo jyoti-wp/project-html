@@ -400,22 +400,67 @@ header {
 .footer .template-text-area a {
   color: #26d0ce; }
 
-.our-services .headline-text-center h1 {
-  text-transform: uppercase;
-  font-size: 2.25rem;
-  line-height: 2.875rem;
-  color: #212121;
-  font-weight: 700;
-  font-family: inherit;
-  text-align: center; }
-
-.our-services .headline-text-center p {
-  margin: 0.625rem 0;
-  color: #858585;
-  font-family: "Noto Serif",serif;
-  font-style: italic;
-  text-align: center;
-  font-size: 1.5rem; }
+.our-services {
+  margin-top: 5rem; }
+  .our-services .headline-text-center h1 {
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    line-height: 2.875rem;
+    color: #212121;
+    font-weight: 700;
+    font-family: inherit;
+    text-align: center; }
+  .our-services .headline-text-center p {
+    margin: 0.625rem 0;
+    color: #858585;
+    font-family: "Noto Serif",serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.125rem;
+    position: relative; }
+  .our-services .headline-text-center p::after {
+    position: absolute;
+    top: 2.5rem;
+    display: inline-block;
+    width: 5.625rem;
+    height: 0.1875rem;
+    background: linear-gradient(90deg, #26d0ce, #1a2980);
+    content: "";
+    margin-left: -9rem; }
+  .our-services .container-section-wrap {
+    display: flex; }
+  .our-services .service-box-container {
+    padding: 3.75rem 0.9375rem 0px; }
+  .our-services .common-container {
+    box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.1);
+    padding: 1.875rem;
+    margin-bottom: 3.125rem;
+    display: block;
+    color: #4e4e4e;
+    line-height: 1.5em; }
+  .our-services .sketch-area h5 {
+    margin-bottom: 1.25rem;
+    text-transform: capitalize;
+    list-style: none;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 700; }
+    .our-services .sketch-area h5 a {
+      color: #212121; }
+  .our-services .sketch-area i {
+    display: block;
+    color: #555;
+    font-size: 3.4375rem;
+    line-height: 3.75rem;
+    margin-bottom: 1.875rem; }
+  .our-services .text-area a {
+    position: relative;
+    color: #212121;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none; }
+  .our-services .text-area i {
+    margin-left: 0.625rem; }
 
 .wrapper {
   margin: auto 0;
@@ -1066,9 +1111,7 @@ header {
       .banner-slider-container .slick-arrow.slick-next {
         right: 3.125rem; }
     header {
-      display: block;
-      padding-top: 1.25rem;
-      padding-bottom: 1.25rem; }
+      display: block; }
       header .wrapper {
         box-shadow: none; }
       header .header-main {
@@ -1188,12 +1231,40 @@ header {
       font-weight: 500;
       text-transform: none;
       padding-bottom: 0.9375rem; }
-    .our-services .headline-text-center h1 {
-      text-align: center;
-      font-size: 2.875rem; }
-    .our-services .headline-text-center p {
-      font-size: 1.625rem;
-      margin-top: 1.25rem; }
+      .our-services .headline-text-center h1 {
+        text-align: center;
+        font-size: 2.875rem; }
+      .our-services .headline-text-center p {
+        font-size: 1.625rem;
+        margin-top: 1.25rem; }
+      .our-services .headline-text-center p::after {
+        margin-left: -12.5rem;
+        width: 7.5rem;
+        top: 3.125rem;
+        height: 0.25rem; }
+    .our-services .main-container-section {
+      padding: 0.125rem 9.375rem; }
+      .our-services .common-container {
+        padding: 2.5rem; }
+      .our-services .sketch-area h5 {
+        margin-bottom: 1.875rem; }
+        .our-services .sketch-area h5 a {
+          font-size: 1.625rem; }
+      .our-services .sketch-area i {
+        font-size: 4.375rem;
+        line-height: 5.3125rem;
+        margin-bottom: 2.5rem; }
+      .our-services .text-area a {
+        font-size: 1.125rem; }
+    .our-services .text-area p {
+      font-size: 1.125rem;
+      line-height: 1.875rem;
+      margin-bottom: 1.25rem; }
+    .our-services .service-box-continer-one,
+    .our-services .service-box-continer-two,
+    .our-services .service-box-continer-three {
+      padding: 0.625rem;
+      padding-left: 0.625rem; }
     .wrapper {
       max-width: 100%; }
     .text-area-final .message-area-container {
@@ -1359,6 +1430,11 @@ header {
       .likes-section .counter-details {
         font-size: 1.375rem;
         margin-top: 2.1875rem; } }
+
+@media screen and (min-width: 1200px) and (min-width: 1200px) {
+    .our-services .text-area p {
+      line-height: 2.0625rem;
+      font-weight: 500; } }
 
 
 /*# sourceMappingURL=main.css.map*/
