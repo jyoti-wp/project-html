@@ -6,14 +6,13 @@
 		flex-direction: column;
 		align-items: center;
 
-
 		@media screen and (min-width: $desktop) {
 			padding: 50px 145px 50px 145px;
 		}
 	}
 
 	.kc-row-container {
-		background-image:url("/assets/images/our-best-clients/our-client-background.jpg");
+		background-image: url("http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: 50%;
@@ -35,13 +34,11 @@
 		text-transform: uppercase;
 		color: $white;
 
-
 		@media screen and (min-width: $tablet) {
 			font-size: 40px;
 			line-height: 50px;
 			margin-bottom: 15px;
 		}
-
 
 		@media screen and (min-width: $desktop) {
 			font-size: 46px;
@@ -72,12 +69,10 @@
 		content: "";
 		margin-left: 110px;
 
-
 		@media screen and (min-width: $tablet) {
 			width: 101px;
     		margin-left: 130px;
 		}
-
 
 		@media screen and (min-width: $desktop) {
 			margin-left: 155px;
@@ -86,7 +81,6 @@
 	}
 
 	.image-container {
-			display: flex;
 			padding-right: 15px;
 			padding-left: 10px;
 			width: 300px;
@@ -106,22 +100,16 @@
 			display: flex;
 			margin-left: 7px;
 			margin-right: 0px;
-
 		}
-
 	}
 
 	// image are one
 
 	img {
 
-
-
 		@media screen and (min-width: $tablet) {
 			width: 100%;
 		}
-
-
 
 		@media screen and (min-width: $desktop) {
 			padding: 10px 20px 10px 20px;
@@ -131,8 +119,6 @@
 	.image-container-one a {
 		display: block;
 		border: 1px solid $border;
-		margin: 0 5px;
-
 
 		@media screen and (min-width: $desktop) {
 			margin-right: 10px;
@@ -144,7 +130,6 @@
 	.image-container-two {
 		display: none;
 
-
 		@media screen and (min-width: $tablet) {
 			display: block;
 		}
@@ -154,7 +139,6 @@
 		display: block;
 		border: 1px solid $border;
 		margin: 0 5px;
-
 
 		@media screen and (min-width: $desktop) {
 			margin-right: 10px;
@@ -221,7 +205,6 @@
 	.image-container-six {
 		display: none;
 
-
 		@media screen and (min-width: $desktop) {
 			display: none
 		}
@@ -236,5 +219,4 @@
 			margin-right: 10px;
 		}
 	}
-
 }

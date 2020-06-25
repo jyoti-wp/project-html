@@ -504,9 +504,7 @@ header {
     font-size: 1.125rem;
     font-weight: 500;
     text-align: center;
-    transition: all .25s;
-    text-decoration: none;
-    padding: 0.625rem; }
+    text-decoration: none; }
 
 .footer .main-footer {
   background-color: #2d313c;
@@ -931,7 +929,7 @@ html {
   align-items: center; }
 
 .our-best-client-section .kc-row-container {
-  background-image: url("/assets/images/our-best-clients/our-client-background.jpg");
+  background-image: url("http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-6.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50%; }
@@ -969,7 +967,6 @@ html {
   margin-left: 6.875rem; }
 
 .our-best-client-section .image-container {
-  display: flex;
   padding-right: 0.9375rem;
   padding-left: 0.625rem;
   width: 18.75rem;
@@ -985,8 +982,7 @@ html {
 
 .our-best-client-section .image-container-one a {
   display: block;
-  border: 1px solid #eaeaea;
-  margin: 0 0.3125rem; }
+  border: 1px solid #eaeaea; }
 
 .our-best-client-section .image-container-two {
   display: none; }
@@ -1804,7 +1800,7 @@ html {
         margin-left: 3.4375rem;
         display: flex; }
       header .quote-btn > a {
-        display: block; }
+        display: flex; }
     .footer .main-footer {
       padding: 9.375rem 0px; }
   .footer .footer-area-grid {
