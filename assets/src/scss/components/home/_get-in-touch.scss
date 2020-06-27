@@ -1,228 +1,226 @@
 .text-area-final {
-                         // mobile view
-    padding-left: 10px;
-    padding-right: 10px;
-    
-    .message-area-container {
+	// mobile view
+	padding-left: 10px;
+	padding-right: 10px;
+
+	.message-area-container {
 
 
-        @media screen and (min-width: $tablet) {
-            display: flex;
-            padding-right: 15px;
-            padding-left: 15px;
-        }
+		@media screen and (min-width: $tablet) {
+			display: flex;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
 
-        @media screen and (min-width: $desktop) {
-            padding-left: 7.8125rem;
-            padding-right: 7.8125rem;
-            padding-bottom: 80px;
-        }
-    }
+		@media screen and (min-width: $desktop) {
+			padding-left: 7.8125rem;
+			padding-right: 7.8125rem;
+			padding-bottom: 80px;
+		}
+	}
 
-    .message-area {
-
-
-
-        @media screen and (min-width: $tablet) {
-            width: 65%;
-        }  
-        
-        @media screen and (min-width: $desktop) {
-            margin-right: 40px;
-            width: 63%;
-        }
-    }
-
-    .message-area h5 {
-        margin-bottom: 8px;
-        font-size: 20px;
-        color: #212121;
-        font-weight: 700;
-        font-family: inherit;
-        text-transform: uppercase;
-
-        @media screen and (min-width: $desktop) {
-            margin-bottom: 8px;
-            font-size: 26px;
-            line-height: 24px;
-        }
-
-    }
-
-    .update-contact-form {
-        position: relative;
-        margin-bottom: 50px;
-        background: #fafafa;
-        padding: 40px;
-    }
-
-    .action-page {
-        
-        @media screen and (min-width: $desktop) {
-            display: flex;
-        }
-    }
-
-    .form-action-page {
-
-        @media screen and (min-width: $desktop) {
-            display: flex;
-        }
-    }
-
-    .form-action-page > input {
-        border: 1px solid #999;
-        padding: 10px;
-        color: #272727;
-        background: #fff;
-        text-transform: capitalize;
-        width: 243px;
-        height: 26px;
-        font-size: 12px;
-
-        @media screen and (min-width: $tablet) {
-
-        }
+	.message-area {
 
 
-        @media screen and(min-width: $desktop) {
-            width: 395px;
-            height: 1.875rem;
-            margin-right: 33px;
-            padding: 0.9375rem;
-            margin-bottom: 1.875rem;
-            margin-left: 10px;
-            font-size: 18px;
-        }
+		@media screen and (min-width: $tablet) {
+			width: 65%;
+		}
 
-    }
+		@media screen and (min-width: $desktop) {
+			margin-right: 40px;
+			width: 63%;
+		}
+	}
 
-    textarea {
-        padding-left: 0;
-        border: 1px solid #999;
-        padding: 10px;
-        color: black;
-        background: #fff;
-        width: 243px;
-        text-transform: capitalize;
-        height: 110px;
-        font-size: 12px;
+	.message-area h5 {
+		margin-bottom: 8px;
+		font-size: 20px;
+		color: #212121;
+		font-weight: 700;
+		font-family: inherit;
+		text-transform: uppercase;
 
+		@media screen and (min-width: $desktop) {
+			margin-bottom: 8px;
+			font-size: 26px;
+			line-height: 24px;
+		}
 
-        @media screen and (min-width: $desktop) {
-            margin-left: 10px;
-            width: 93%;
-            font-size: 24px;
+	}
 
-        }
-    }
+	.update-contact-form {
+		position: relative;
+		margin-bottom: 50px;
+		background: #fafafa;
+		padding: 40px;
+	}
 
-    .button > input {
-        font-size: 16px;
-        font-weight: 700;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border-radius: 25px;
-        margin-bottom: 0;
-        background-color: #26d0ce;
-        color: white;
-        width: 180px;
-        border: none;
+	.action-page {
 
+		@media screen and (min-width: $desktop) {
+			display: flex;
+		}
+	}
 
-        @media screen and (min-width: $desktop) {
-            width: 230px;
-            font-size: 20px;
-            padding: 20px;
-            margin-left: 10px;
-            border-radius: 35px;
-        }
+	.form-action-page {
 
-    }
+		@media screen and (min-width: $desktop) {
+			display: flex;
+		}
+	}
 
-    .contact-area-form {
-        
-    }
+	.form-action-page > input {
+		border: 1px solid #999;
+		padding: 10px;
+		color: #272727;
+		background: #fff;
+		text-transform: capitalize;
+		width: 243px;
+		height: 26px;
+		font-size: 12px;
 
-        // get in touch area section
+		@media screen and (min-width: $tablet) {
 
-    .get-in-touch-section{
-        position: relative;
-        min-height: 1px;
+		}
 
 
+		@media screen and(min-width: $desktop) {
+			width: 395px;
+			height: 1.875rem;
+			margin-right: 33px;
+			padding: 0.9375rem;
+			margin-bottom: 1.875rem;
+			margin-left: 10px;
+			font-size: 18px;
+		}
 
-        @media screen and (min-width: $tablet) {
-            width: 33%;
-        }
+	}
 
-
-    }
-
-    .get-in-touch-section h5 {
-        margin-bottom: 8px;
-        font-size: 20px;
-        color: #212121;
-        font-weight: 700;
-        font-family: inherit;
-
-        @media screen and (min-width: $desktop) {
-            margin-bottom: 15px;
-            font-size: 26px;
-            line-height: 24px;
-        }
-    }
-
-    .get-in-touch-section p {
-        color: #4e4e4e;
-        line-height: 1.5em;
-        margin-bottom: 40px;
+	textarea {
+		padding-left: 0;
+		border: 1px solid #999;
+		padding: 10px;
+		color: black;
+		background: #fff;
+		width: 243px;
+		text-transform: capitalize;
+		height: 110px;
+		font-size: 12px;
 
 
-        @media screen and (min-width: $desktop) {
-            font-size: 20px;
-        }
-    }
+		@media screen and (min-width: $desktop) {
+			margin-left: 10px;
+			width: 93%;
+			font-size: 24px;
 
-    .widget-contact ul {
-        list-style: none;
-        text-decoration: none;
+		}
+	}
 
-        @media screen and (min-width: $desktop ) {
-            font-size: 20px;
-        }
-    }
+	.button > input {
+		font-size: 16px;
+		font-weight: 700;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		border-radius: 25px;
+		margin-bottom: 0;
+		background-color: #26d0ce;
+		color: white;
+		width: 180px;
+		border: none;
 
-    .widget-contact ul li {
-        position: relative;
-        padding-left: 30px;
-        margin-bottom: 20px;
-        line-height: 24px;
-        color: #4e4e4e;
+
+		@media screen and (min-width: $desktop) {
+			width: 230px;
+			font-size: 20px;
+			padding: 20px;
+			margin-left: 10px;
+			border-radius: 35px;
+		}
+
+	}
+
+	.contact-area-form {
+
+	}
+
+	// get in touch area section
+
+	.get-in-touch-section {
+		position: relative;
+		min-height: 1px;
 
 
-        @media screen and (min-width: $desktop) {
-            margin-bottom: 25px;
-            padding-left: 50px;
-        }
-    }
+		@media screen and (min-width: $tablet) {
+			width: 33%;
+		}
 
-    .widget-contact ul li i {
-        position: absolute;
-        top: 5px;
-        left: 0;
-        color: #26d0ce;
-        font-size: 16px;
-        list-style: none;
-        text-decoration: none;
 
-        @media screen and (min-width: $desktop) {
-            font-size: 25px;
-        }
+	}
 
-    }
+	.get-in-touch-section h5 {
+		margin-bottom: 8px;
+		font-size: 20px;
+		color: #212121;
+		font-weight: 700;
+		font-family: inherit;
 
-    .widget-contact ul li a{
-        color: #4e4e4e
-    }
+		@media screen and (min-width: $desktop) {
+			margin-bottom: 15px;
+			font-size: 26px;
+			line-height: 24px;
+		}
+	}
+
+	.get-in-touch-section p {
+		color: #4e4e4e;
+		line-height: 1.5em;
+		margin-bottom: 40px;
+
+
+		@media screen and (min-width: $desktop) {
+			font-size: 20px;
+		}
+	}
+
+	.widget-contact ul {
+		list-style: none;
+		text-decoration: none;
+
+		@media screen and (min-width: $desktop) {
+			font-size: 20px;
+		}
+	}
+
+	.widget-contact ul li {
+		position: relative;
+		padding-left: 30px;
+		margin-bottom: 20px;
+		line-height: 24px;
+		color: #4e4e4e;
+
+
+		@media screen and (min-width: $desktop) {
+			margin-bottom: 25px;
+			padding-left: 50px;
+		}
+	}
+
+	.widget-contact ul li i {
+		position: absolute;
+		top: 5px;
+		left: 0;
+		color: #26d0ce;
+		font-size: 16px;
+		list-style: none;
+		text-decoration: none;
+
+		@media screen and (min-width: $desktop) {
+			font-size: 25px;
+		}
+
+	}
+
+	.widget-contact ul li a {
+		color: #4e4e4e
+	}
 }

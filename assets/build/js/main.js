@@ -110,7 +110,7 @@
       infinite: true,
       speed: 100,
       slidesToShow: 1,
-      autoplay: false,
+      autoplay: true,
       arrows: true
     }); // latest news slider
 
@@ -118,7 +118,8 @@
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 3,
-      arrows: true
+      arrows: true,
+      autoplay: true
     });
   });
 })(jQuery);

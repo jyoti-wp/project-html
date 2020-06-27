@@ -1,203 +1,202 @@
 .about-us-section-one {
 
 
-    padding-top: 115px;
+	padding-top: 115px;
 
-    @media screen and (min-width: $tablet) {
-        padding-bottom: 50px;
-    }
+	@media screen and (min-width: $tablet) {
+		padding-bottom: 50px;
+	}
 
-    @media screen and (min-width: $desktop) {
-        padding-left: 200px;
-        padding-right: 200px;
+	@media screen and (min-width: $desktop) {
+		padding-left: 200px;
+		padding-right: 200px;
 
-    }
-    
-    .about-us-container {
-        margin-right: 15px;
-        margin-left: 15px;
+	}
 
-    }
+	.about-us-container {
+		margin-right: 15px;
+		margin-left: 15px;
 
-    .headline-text-two {
-        margin-top: 20px;
-    }
+	}
 
-    .headline-text h2 {
-        font-size: 36px;
-        line-height: 46px;
-        color: #212121;
-        font-weight: 700;
-        text-align: center;
-        text-transform: uppercase;
+	.headline-text-two {
+		margin-top: 20px;
+	}
 
-
-        @media screen and (min-width: $desktop) {
-            font-size: 46px;
-            line-height: 50px;
-        }
-    }
-
-    .headline-text p{
-        margin: 10px 0;
-        color: #858585;
-        font-family: "Noto Serif",serif;
-        font-style: italic;
-        text-align: center;
-        font-size: 18px;
-        position: relative;
-
-        @media screen and (min-width: $desktop) {
-            font-size: 26px;
-            margin-top: 22px;
-        }
-    }
-
-    .headline-text p::after {
-        position: absolute;
-        top: 40px;
-        margin-left: 130px;
-        display: block;
-        width: 100px;
-        height: 3px;
-        background: #26d0ce;
-        background: -webkit-linear-gradient(90deg,#26d0ce,#1a2980);
-        background: -ms-linear-gradient(90deg,#26d0ce,#1a2980);
-        background: linear-gradient(90deg,#26d0ce,#1a2980);
-        content: "";
-
-        @media screen and (min-width: $tablet) {
-            margin-left: 325px;
-        }
-
-        @media screen and (min-width: $desktop) {
-            top: 45px;
-            left: 306px;
-            width: 125px;
-
-        }
-    }
-
-// image area section style
-
-    .image-area-section {
-
-        
-
-        @media screen and (min-width: $tablet) {
-            width: 50%;
-            padding-right: 30px;
-            padding-left: 10px;
-        }
-        
-
-    }
-
-    .image-container {
-        padding-top: 50px;
-        padding-bottom: 50px;
-
-        @media screen and (min-width: $tablet) {
-            padding-top: 0px;
-        }
-    }
-
-    .image-container img {
-        vertical-align: middle;
-        width: 100%;
-        
-
-        @media screen and (min-width: $tablet) {
-            width: 345px;
-            height: 324px;
-        }
-
-        @media screen and (min-width: $desktop) {
-            width: 580px;
-            height: 100%;
-        }
-
-    }
-
-    // headline text area two
-
-    .about-us-section-two {
+	.headline-text h2 {
+		font-size: 36px;
+		line-height: 46px;
+		color: #212121;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
 
 
-        @media screen and (min-width: $tablet) {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 80px;
-        }
-        
-    }
+		@media screen and (min-width: $desktop) {
+			font-size: 46px;
+			line-height: 50px;
+		}
+	}
 
-    .information-section {
+	.headline-text p {
+		margin: 10px 0;
+		color: #858585;
+		font-family: "Noto Serif", serif;
+		font-style: italic;
+		text-align: center;
+		font-size: 18px;
+		position: relative;
+
+		@media screen and (min-width: $desktop) {
+			font-size: 26px;
+			margin-top: 22px;
+		}
+	}
+
+	.headline-text p::after {
+		position: absolute;
+		top: 40px;
+		margin-left: 130px;
+		display: block;
+		width: 100px;
+		height: 3px;
+		background: #26d0ce;
+		background: -webkit-linear-gradient(90deg, #26d0ce, #1a2980);
+		background: -ms-linear-gradient(90deg, #26d0ce, #1a2980);
+		background: linear-gradient(90deg, #26d0ce, #1a2980);
+		content: "";
+
+		@media screen and (min-width: $tablet) {
+			margin-left: 325px;
+		}
+
+		@media screen and (min-width: $desktop) {
+			top: 45px;
+			left: 306px;
+			width: 125px;
+
+		}
+	}
+
+	// image area section style
+
+	.image-area-section {
 
 
-        @media screen and (min-width: $tablet) {
-            width: 50%;
-
-        }
-        
-    }
-
-    .headline-text-two h5 {
-        text-transform: uppercase;
-        margin-bottom: 8px;
-        font-size: 20px;
-        line-height: 24px;
-        margin: 0;
-        color: #212121;
-        font-weight: 700;
+		@media screen and (min-width: $tablet) {
+			width: 50%;
+			padding-right: 30px;
+			padding-left: 10px;
+		}
 
 
-        @media screen and (min-width: $desktop) {
-            font-size: 28px;
-            
-        }
-    }
+	}
 
-    .headline-text-two p {
-        margin-bottom: 20px;
-        color: #4e4e4e;
-        line-height: 1.5em;
+	.image-container {
+		padding-top: 50px;
+		padding-bottom: 50px;
 
-        @media screen and (min-width: $desktop) {
-            font-size: 22px;
-            margin-bottom: 30px;
-            line-height: initial;
-            margin-top: 15px;
-        }
+		@media screen and (min-width: $tablet) {
+			padding-top: 0px;
+		}
+	}
 
-    }
+	.image-container img {
+		vertical-align: middle;
+		width: 100%;
 
-    .check-list {
-        list-style: none;
-        margin-bottom: 20px;
-    }
 
-    .check-list li {
-        margin-bottom: 5px;
-        color: #4e4e4e;
+		@media screen and (min-width: $tablet) {
+			width: 345px;
+			height: 324px;
+		}
 
-        @media screen and (min-width: $desktop) {
-            padding-bottom: 10px;
-            font-size: 22px;
-        }
-    }
+		@media screen and (min-width: $desktop) {
+			width: 580px;
+			height: 100%;
+		}
 
-    .check-list li::before {
-        display: inline-block;
-        width: 7px;
-        height: 12px;
-        border: solid #26d0ce;
-        border-width: 0 2px 2px 0;
-        margin-right: 15px;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        content: "";
-    }
+	}
+
+	// headline text area two
+
+	.about-us-section-two {
+
+
+		@media screen and (min-width: $tablet) {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 80px;
+		}
+
+	}
+
+	.information-section {
+
+
+		@media screen and (min-width: $tablet) {
+			width: 50%;
+
+		}
+
+	}
+
+	.headline-text-two h5 {
+		text-transform: uppercase;
+		margin-bottom: 8px;
+		font-size: 20px;
+		line-height: 24px;
+		margin: 0;
+		color: #212121;
+		font-weight: 700;
+
+
+		@media screen and (min-width: $desktop) {
+			font-size: 28px;
+
+		}
+	}
+
+	.headline-text-two p {
+		margin-bottom: 20px;
+		color: #4e4e4e;
+		line-height: 1.5em;
+
+		@media screen and (min-width: $desktop) {
+			font-size: 22px;
+			margin-bottom: 30px;
+			line-height: initial;
+			margin-top: 15px;
+		}
+
+	}
+
+	.check-list {
+		list-style: none;
+		margin-bottom: 20px;
+	}
+
+	.check-list li {
+		margin-bottom: 5px;
+		color: #4e4e4e;
+
+		@media screen and (min-width: $desktop) {
+			padding-bottom: 10px;
+			font-size: 22px;
+		}
+	}
+
+	.check-list li::before {
+		display: inline-block;
+		width: 7px;
+		height: 12px;
+		border: solid #26d0ce;
+		border-width: 0 2px 2px 0;
+		margin-right: 15px;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+		content: "";
+	}
 
 }

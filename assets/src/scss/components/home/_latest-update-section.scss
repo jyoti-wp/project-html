@@ -1,246 +1,254 @@
 .new-area {
 
-    // mobile section
-    @media screen and (min-width: $tablet) {
-        padding-top: 50px;
-    }
+	// mobile section
+	@media screen and (min-width: $tablet) {
+		padding-top: 50px;
+	}
 
-                    // latest news and update section 
+	// latest news and update section
 
-    .latest-news h2 {
-        font-size: 36px;
-        line-height: 46px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #212121;
+	.latest-news h2 {
+		font-size: 36px;
+		line-height: 46px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #212121;
 
-        @media screen and (min-width: $tablet){
-            font-size: 40px;
-            line-height: 50px;
-            margin-bottom: 15px;
-        }
+		@media screen and (min-width: $tablet) {
+			font-size: 40px;
+			line-height: 50px;
+			margin-bottom: 15px;
+		}
 
-        @media screen and (min-width: $desktop) {
-            font-size: 46px;
-            padding-bottom: 20px;
-        }
-    }
+		@media screen and (min-width: $desktop) {
+			font-size: 46px;
+			padding-bottom: 20px;
+		}
+	}
 
-    .latest-news p {
-        margin: 10px 0;
-        color: #858585;
-        font-family: "Noto Serif",serif;
-        font-style: italic;
-        font-size: 20px;
-        text-align: center;
-        position: relative;
+	.latest-news p {
+		margin: 10px 0;
+		color: #858585;
+		font-family: "Noto Serif", serif;
+		font-style: italic;
+		font-size: 20px;
+		text-align: center;
+		position: relative;
 
-        @media screen and (min-width: $tablet) {
+		@media screen and (min-width: $tablet) {
 
-        }
+		}
 
-        @media screen and (min-width: $desktop) {
-            padding-bottom: 20px;
-            font-size: 26px;
-        }
-    }
+		@media screen and (min-width: $desktop) {
+			padding-bottom: 20px;
+			font-size: 26px;
+		}
+	}
 
-    .latest-news p::after {
-        position: absolute;
-        top: 40px;
-        width: 6.25rem;
-        height: 0.1875rem;
-        background: #26d0ce;
-        background: linear-gradient(90deg, #26d0ce, #1a2980);
-        content: "";
-        display: block;
-        margin-left: 135px;
+	.latest-news p::after {
+		position: absolute;
+		top: 40px;
+		width: 6.25rem;
+		height: 0.1875rem;
+		background: #26d0ce;
+		background: linear-gradient(90deg, #26d0ce, #1a2980);
+		content: "";
+		display: block;
+		margin-left: 135px;
 
-        @media screen and (min-width: $tablet) {
-            margin-left: 335px;
-        }
+		@media screen and (min-width: $tablet) {
+			margin-left: 335px;
+		}
 
-        @media screen and (min-width: $desktop) {
-            left: 520px;
-            width: 125px;
-            top: 45px;
-        }
-    }
+		@media screen and (min-width: $desktop) {
+			left: 520px;
+			width: 125px;
+			top: 45px;
+		}
+	}
 
-                // latest   update   section   one    area 
+	// latest   update   section   one    area
 
-    .latest-update-image-area {
+	.latest-update-image-area {
 
-        @media screen and (min-width: $tablet) {
-            display: flex;
-        }
+		.slick-list {
+			margin-left: 3.5625rem !important;
+		}
 
-        @media screen and (min-width: $desktop) {
-            padding: 0px 140px 50px;
-        }
-    }
+		@media screen and (min-width: $tablet) {
+			display: flex;
+		}
 
-    .latest-update-image-section-one {
-        padding-top: 80px;
-        margin-left: 25px;
-        margin-right: 25px;
-        padding-bottom: 40px;
+		@media screen and (min-width: $desktop) {
+			padding: 0px 140px 50px;
+		}
+	}
 
-        @media screen and (min-width: $tablet) {
-            margin-right: 0;
+	.latest-update-image-section-one {
+		padding-top: 80px;
+		margin-left: 25px;
+		margin-right: 25px;
+		padding-bottom: 40px;
 
-        }
+		@media screen and (min-width: $tablet) {
+			margin-right: 0;
 
-    }
+		}
 
-    .latest-image {
+	}
 
-    }
+	.latest-image {
 
-    .latest-image img {
-        width: 325px;
+	}
 
-        @media screen and (min-width: $tablet) {
-            width: 100%;
+	.latest-image {
+		width: 325px;
+		overflow: hidden;
 
-        }
+		@media screen and (min-width: $tablet) {
+			width: 100%;
 
-        @media screen and (min-width: $desktop) {
-            width: 490px;
-            height: 310px
-        }
+		}
 
-    }
+		@media screen and (min-width: $desktop) {
+			width: 490px;
+			height: 310px
+		}
 
-                    // advertisment section start
+		img {
+			width: 100%;
+		}
+	}
 
-    .advertisment-section {
-        padding: 30px 20px;
-        border: 1px solid #eaeaea;
-        margin-top: -7px;
+	// advertisment section start
 
-        @media screen and (min-width: $desktop) {
-            padding-top: 30px;
-        }
+	.advertisment-section {
+		padding: 30px 20px;
+		border: 1px solid #eaeaea;
+		margin-top: -7px;
 
-    }
+		@media screen and (min-width: $desktop) {
+			padding-top: 30px;
+		}
 
-    .advertisment-section h5 {
-        font-size: 20px;
-        text-align: center;
-        line-height: 1.2em;
-        text-transform: capitalize;
+	}
 
-        @media screen and (min-width: $desktop) {
-            font-size: 26px;
-            text-align: inherit;
+	.advertisment-section h5 {
+		font-size: 20px;
+		text-align: center;
+		line-height: 1.2em;
+		text-transform: capitalize;
 
-        }
+		@media screen and (min-width: $desktop) {
+			font-size: 26px;
+			text-align: inherit;
 
-    }
+		}
 
-    .advertisment-section h5 a {
-        color: #212121;
+	}
 
-    }
+	.advertisment-section h5 a {
+		color: #212121;
 
-                            // article section
+	}
 
-    .article-section {
-        font-size: 14px;
-        font-weight: 600;
+	// article section
 
-        @media screen and (min-width: $desktop) {
-            font-size: 18px;
-            padding-bottom: 10px;
-        }
-    }
+	.article-section {
+		font-size: 14px;
+		font-weight: 600;
 
-    .article-section > a {
-        text-decoration: none;
-        color: #212121;
+		@media screen and (min-width: $desktop) {
+			font-size: 18px;
+			padding-bottom: 10px;
+		}
+	}
 
-    }
+	.article-section > a {
+		text-decoration: none;
+		color: #212121;
 
-    .author {
-        border-right: 1px solid;
-        padding-right: 10px;
+	}
 
-    }
+	.author {
+		border-right: 1px solid;
+		padding-right: 10px;
 
-    .comments {
-        padding-left: 10px;
-    }
+	}
 
-    .paragraph p {
-        color: #4e4e4e;
-        line-height: 22px;
-        margin-right: 10px;
-        margin-top: 15px;
+	.comments {
+		padding-left: 10px;
+	}
 
-        @media screen and (min-width: $desktop) {
-            font-size: 20px;
-            line-height: 30px;
-            margin-right: 50px;
-        }
+	.paragraph p {
+		color: #4e4e4e;
+		line-height: 22px;
+		margin-right: 10px;
+		margin-top: 15px;
 
-    }
+		@media screen and (min-width: $desktop) {
+			font-size: 20px;
+			line-height: 30px;
+			margin-right: 50px;
+		}
 
-    .btn-default {
-        font-size: 13px;
-        font-weight: 700;
-        letter-spacing: .3px;
-        text-transform: uppercase;
-        color: #fff;
-        background-color: #1a2980;
-        position: relative;
-        overflow: hidden;
-        padding: 7px 30px 8px 30px;
-        border: none;
-        border-radius: 20px;
-        display: inline-block;
-        margin-top: 25px;
+	}
 
-        @media screen and (min-width: $desktop) {
-            font-size: 18px;
-            padding: 15px 35px;
-            border-radius: 50px;
-            margin-top: 35px;
-        }
-    }
+	.btn-default {
+		font-size: 13px;
+		font-weight: 700;
+		letter-spacing: .3px;
+		text-transform: uppercase;
+		color: #fff;
+		background-color: #1a2980;
+		position: relative;
+		overflow: hidden;
+		padding: 7px 30px 8px 30px;
+		border: none;
+		border-radius: 20px;
+		display: inline-block;
+		margin-top: 25px;
 
-            // latest   update    image    section    two    area  
+		@media screen and (min-width: $desktop) {
+			font-size: 18px;
+			padding: 15px 35px;
+			border-radius: 50px;
+			margin-top: 35px;
+		}
+	}
 
-       
-    .latest-update-image-section-two {
-        display: none;
+	// latest   update    image    section    two    area
 
-        @media screen and (min-width: $tablet) {
-            padding-top: 80px;
-            margin-left: 25px;
-            margin-right: 25px;
-            padding-bottom: 40px;
-            display: inline;
-            }
 
-    }
+	.latest-update-image-section-two {
+		display: none;
 
-            // latest   update    image    section    three    area 
+		@media screen and (min-width: $tablet) {
+			padding-top: 80px;
+			margin-left: 25px;
+			margin-right: 25px;
+			padding-bottom: 40px;
+			display: inline;
+		}
 
-    .latest-update-image-section-three {
-        display: none;
+	}
 
-        @media screen and (min-width: $desktop) {
-            display: inline;
-            padding-top: 80px;
+	// latest   update    image    section    three    area
 
-        } 
-    }
+	.latest-update-image-section-three {
+		display: none;
 
-            // latest   update    image    section    four   area 
+		@media screen and (min-width: $desktop) {
+			display: inline;
+			padding-top: 80px;
 
-    .latest-update-image-section-four {
-        display: none;
-    }
+		}
+	}
+
+	// latest   update    image    section    four   area
+
+	.latest-update-image-section-four {
+		display: none;
+	}
 
 }

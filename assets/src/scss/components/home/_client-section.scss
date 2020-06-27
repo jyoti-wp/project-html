@@ -71,7 +71,7 @@
 
 		@media screen and (min-width: $tablet) {
 			width: 101px;
-    		margin-left: 130px;
+			margin-left: 130px;
 		}
 
 		@media screen and (min-width: $desktop) {
@@ -81,10 +81,10 @@
 	}
 
 	.image-container {
-			padding-right: 15px;
-			padding-left: 10px;
-			width: 300px;
-			overflow: hidden;
+		padding-right: 15px;
+		padding-left: 10px;
+		width: 300px;
+		overflow: hidden;
 	}
 
 	.slick-list {

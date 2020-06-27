@@ -67,7 +67,7 @@
 		font-size: 20px;
 		border: #1a2980;
 		margin-top: 45px;
-		
+
 		@media screen and (min-width: $desktop) {
 			line-height: 24px;
 			padding: 18px 40px;
@@ -115,7 +115,7 @@
 	}
 }
 
-						// slick wrap area
+// slick wrap area
 
 .banner-slider-wrap {
 	color: $white;
@@ -150,5 +150,39 @@
 		opacity: 1;
 		visibility: inherit;
 		z-index: 20;
+	}
+}
+
+.slick-next.slick-arrow {
+
+	background-color: transparent;
+	border: none;
+	display: none !important;
+
+	&:hover {
+		display: block;
+	}
+
+	&::after {
+		content: '>';
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 99;
+	}
+}
+
+.slick-prev.slick-arrow {
+
+	background-color: transparent;
+	border: none;
+	display: none !important;
+
+	&::after {
+		content: '<';
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 99;
 	}
 }

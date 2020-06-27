@@ -366,7 +366,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   font-family: sans-serif;
-  font-size: 1.125rem/1.875rem Poppins,sans-serif;
+  font-size: 1.125rem/1.875rem Poppins, sans-serif;
   line-height: 1.5em; }
 
 ol, ul {
@@ -375,8 +375,8 @@ ol, ul {
 blockquote, q {
   quotes: none; }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote::before, blockquote::after,
+q::before, q::after {
   content: '';
   content: none; }
 
@@ -391,7 +391,7 @@ i {
   text-decoration: none; }
 
 body {
-  font: 1rem/1.5rem Poppins,sans-serif; }
+  font: 1rem/1.5rem Poppins, sans-serif; }
 
 .banner-slider-container {
   position: absolute;
@@ -463,8 +463,32 @@ body {
     visibility: inherit;
     z-index: 20; }
 
+.slick-next.slick-arrow {
+  background-color: transparent;
+  border: none;
+  display: none !important; }
+  .slick-next.slick-arrow:hover {
+    display: block; }
+  .slick-next.slick-arrow::after {
+    content: '>';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99; }
+
+.slick-prev.slick-arrow {
+  background-color: transparent;
+  border: none;
+  display: none !important; }
+  .slick-prev.slick-arrow::after {
+    content: '<';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99; }
+
 header {
-  background-color: #4074A3;
+  background-color: #4074a3;
   position: relative;
   height: 50rem;
   background-repeat: no-repeat; }
@@ -558,7 +582,7 @@ header {
   font-size: 0.875rem;
   text-align: center;
   margin-right: 0.1875rem;
-  transition: all .3s;
+  transition: all 0.3s;
   color: white; }
 
 .footer .recent-post-area h6 {
@@ -589,13 +613,13 @@ header {
   font-size: 0.8125rem;
   font-weight: 700;
   text-transform: uppercase;
-  transition: all .25s;
+  transition: all 0.25s;
   background-color: transparent;
   padding-left: 0.9375rem; }
 
 .footer .post-details > a {
   color: #26d0ce;
-  transition: all .25s;
+  transition: all 0.25s;
   font-weight: 600;
   font-size: 0.875rem;
   padding-left: 0.9375rem; }
@@ -721,7 +745,7 @@ header {
 
 .footer .template-text-area h5 {
   color: #8f8f8f;
-  transition: all .25s;
+  transition: all 0.25s;
   font-weight: 600;
   padding-left: 0.9375rem;
   text-transform: capitalize;
@@ -744,7 +768,7 @@ header {
   .our-services .headline-text-center p {
     margin: 0.625rem 0;
     color: #858585;
-    font-family: "Noto Serif",serif;
+    font-family: "Noto Serif", serif;
     font-style: italic;
     text-align: center;
     font-size: 1.125rem;
@@ -1034,7 +1058,7 @@ html {
 .new-area .latest-news p {
   margin: 0.625rem 0;
   color: #858585;
-  font-family: "Noto Serif",serif;
+  font-family: "Noto Serif", serif;
   font-style: italic;
   font-size: 1.25rem;
   text-align: center;
@@ -1051,14 +1075,20 @@ html {
   display: block;
   margin-left: 8.4375rem; }
 
+.new-area .latest-update-image-area .slick-list {
+  margin-left: 3.5625rem !important; }
+
 .new-area .latest-update-image-section-one {
   padding-top: 5rem;
   margin-left: 1.5625rem;
   margin-right: 1.5625rem;
   padding-bottom: 2.5rem; }
 
-.new-area .latest-image img {
-  width: 20.3125rem; }
+.new-area .latest-image {
+  width: 20.3125rem;
+  overflow: hidden; }
+  .new-area .latest-image img {
+    width: 100%; }
 
 .new-area .advertisment-section {
   padding: 1.875rem 1.25rem;
@@ -1136,7 +1166,7 @@ html {
   .about-us-section-one .headline-text p {
     margin: 0.625rem 0;
     color: #858585;
-    font-family: "Noto Serif",serif;
+    font-family: "Noto Serif", serif;
     font-style: italic;
     text-align: center;
     font-size: 1.125rem;
@@ -1524,7 +1554,7 @@ html {
     display: flex; }
     .new-area .latest-update-image-section-one {
       margin-right: 0; }
-    .new-area .latest-image img {
+    .new-area .latest-image {
       width: 100%; }
     .new-area .latest-update-image-section-two {
       padding-top: 5rem;
@@ -2025,7 +2055,7 @@ html {
       top: 2.8125rem; }
   .new-area .latest-update-image-area {
     padding: 0px 8.75rem 3.125rem; }
-    .new-area .latest-image img {
+    .new-area .latest-image {
       width: 30.625rem;
       height: 19.375rem; }
     .new-area .advertisment-section {

@@ -1,108 +1,101 @@
 .likes-section {
 
-    padding: 85px 0px;
+	padding: 85px 0px;
 
 
-
-    @media screen and (min-width: $tablet) {
-        padding: 40px 0px;
-
-
-    }
+	@media screen and (min-width: $tablet) {
+		padding: 40px 0px;
 
 
-
-    .full-section-overlay {
-    background-image: url("http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-5.jpg");
-    background-repeat: no-repeat;
+	}
 
 
-    @media screen and (min-width: $desktop) {
-        background-attachment: fixed;
-    }
+	.full-section-overlay {
+		background-image: url("http://wp.efforttech.net/newwp/sigma/wp-content/uploads/2019/01/bg-5.jpg");
+		background-repeat: no-repeat;
 
 
-    }
+		@media screen and (min-width: $desktop) {
+			background-attachment: fixed;
+		}
 
 
-
-    .update-counter {
-
-        @media screen and (min-width: $tablet) {
-            display: flex;
-            justify-content: space-evenly;
-            padding-right: 60px;
-        }
-
-        @media screen and (min-width: $desktop) {
-            padding: 80px 80px 20px 0px;
-        }
-    }
+	}
 
 
+	.update-counter {
 
-    .full-section-container {
-        background: #1a2980;
-        opacity: 0.8;
-        padding: 100px 0 150px;
-        font-size: 64px;
-    }
+		@media screen and (min-width: $tablet) {
+			display: flex;
+			justify-content: space-evenly;
+			padding-right: 60px;
+		}
 
-
-
-    .counter-value {
-        position: relative;
-        color: #fff;
-        font-weight: 700;
-        line-height: 64px;
-        text-align: center;
-        transition: all .5s ease-in;
-        display: block;
-
-        @media screen and (min-width: $desktop) {
-            font-size: 80px;
-        }
-    }
+		@media screen and (min-width: $desktop) {
+			padding: 80px 80px 20px 0px;
+		}
+	}
 
 
-
-    .counter-value::before {
-        position: absolute;
-        content: '';
-        left: 50%;
-        top: -20px;
-        width: 75px;
-        height: 135px;
-        margin-left: -45px;
-        border: 8px solid rgba(255,255,255,.1);
-
-        @media screen and (min-width: $desktop) {
-            border: 10px solid rgba(255, 255, 255, 0.1);
-            margin-left: -60px;
-            width: 95px;
-            height: 160px;
-            margin-top: -20px;
-        }
-
-    }
+	.full-section-container {
+		background: #1a2980;
+		opacity: 0.8;
+		padding: 100px 0 150px;
+		font-size: 64px;
+	}
 
 
+	.counter-value {
+		position: relative;
+		color: #fff;
+		font-weight: 700;
+		line-height: 64px;
+		text-align: center;
+		transition: all .5s ease-in;
+		display: block;
 
-    .counter-details {
-        position: relative;
-        color: #fff;
-        font-weight: 700;
-        text-align: center;
-        font-size: 16px;
-        transition: all .5s ease-in;
-        margin-top: 20px;
+		@media screen and (min-width: $desktop) {
+			font-size: 80px;
+		}
+	}
 
-        @media screen and (min-width: $desktop) {
-            font-size: 22px;
-            margin-top: 35px;
 
-        }
-    }
+	.counter-value::before {
+		position: absolute;
+		content: '';
+		left: 50%;
+		top: -20px;
+		width: 75px;
+		height: 135px;
+		margin-left: -45px;
+		border: 8px solid rgba(255, 255, 255, .1);
 
-    
+		@media screen and (min-width: $desktop) {
+			border: 10px solid rgba(255, 255, 255, 0.1);
+			margin-left: -60px;
+			width: 95px;
+			height: 160px;
+			margin-top: -20px;
+		}
+
+	}
+
+
+	.counter-details {
+		position: relative;
+		color: #fff;
+		font-weight: 700;
+		text-align: center;
+		font-size: 16px;
+		transition: all .5s ease-in;
+		margin-top: 20px;
+
+		@media screen and (min-width: $desktop) {
+			font-size: 22px;
+			margin-top: 35px;
+
+		}
+	}
+
+
 }
