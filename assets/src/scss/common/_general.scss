@@ -1,0 +1,14 @@
+html {
+	overflow-x: hidden;
+}
+
+.wrapper{
+	margin: auto 0;
+	width: 100%;
+	max-width: 1200px;
+
+	@media screen and (min-width: $desktop ) {
+		max-width: 100%;
+	}
+}
+

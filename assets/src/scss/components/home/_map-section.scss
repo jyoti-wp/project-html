@@ -1,0 +1,38 @@
+.map-area {
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    
+
+    @media screen and (min-width: $desktop) {
+    padding: 4.25rem 0 1.875rem;
+    
+    }
+
+                // mobile view
+
+    .mapouter {
+        overflow: hidden;
+        z-index: 3;
+        padding: 0px;
+        left: 0px;
+        margin-bottom: 60px;
+        text-align: center;
+
+        @media screen and (min-width: $desktop) {
+            margin-bottom: 1.8125rem;
+            padding-left: 115px;
+            padding-right: 115px;
+        }
+    }
+
+
+
+    iframe {
+
+        @media screen and (min-width: $tablet) {
+            width: 100%;
+        }
+    }
+}

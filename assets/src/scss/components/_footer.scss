@@ -1,20 +1,596 @@
-footer {
-	background-color: #26272c;
-    padding: 10px;
-    color: white;
-}
+.footer {
 
-.wrapper{
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1440px;
-	font-size: 12px;
-    line-height: 20px;
-}
 
-.text-area{
-	font-size: 16px;
-    line-height: 1.6;
-    font-family: sans-serif;
-    color: #a1a1a1;
+    .main-footer {
+        background-color: #2d313c;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: #fff;
+
+
+        @media screen and (min-width: $tablet) {
+            padding: 100px 0;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            padding: 150px 0px;
+        }
+
+    }
+
+
+    .footer-area-grid {
+
+
+        @media screen and (min-width: $tablet){
+            display: grid;
+            grid-template-columns: repeat(4, 4fr);
+        }
+
+
+        @media screen and (min-width: $desktop) {
+            padding: 0px 100px 0px 100px;
+        }
+
+
+    }
+
+    .text-area{
+
+    }
+
+    .widget-text-area {
+        padding-top: 100px;
+
+        @media screen and (min-width: $tablet){
+            padding-top: 0;
+            padding-right: 30px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    
+    .text-area h5 {
+        color: #fff;
+        position: relative;
+        margin-bottom: 2.5rem;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        box-sizing: border-box;
+        padding-bottom: 0.625rem;
+        font-weight: 700;
+
+        @media screen and (min-width: $tablet){
+            line-height: 25px;
+        }
+
+
+        @media screen and (min-width: $desktop) {
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: 900;
+            padding-bottom: 15px;
+            
+        }
+    }
+
+    .text-area h5::after{
+        position: absolute;
+        bottom: 1px;
+        display: block;
+        width: 100%;
+        height: 1px;
+        text-align: justify;
+        content: "";
+        background: linear-gradient(90deg,#26d0ce,#1a2980);
+        margin-top: 5px;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 1.5rem;
+            line-height: 24px;
+            font-weight: 900;
+        }
+    }
+
+    .text-area p {
+        font-size: 14px;
+        line-height: 1.9em;
+        margin-bottom: 20px;
+        color: #fff;
+
+        @media screen and(min-width: $tablet) {
+            font-size: 14px;
+            line-height: 1.9em;
+        }
+
+        @media screen and (min-width: $desktop) {
+            font-size: 20px;
+            line-height: 35px;
+        }
+    }
+
+    .social-media-footer{
+        padding-top: 0.9375rem;
+        padding-bottom: 2.25rem;
+    }
+
+    .social-media-footer a{
+
+    }
+
+    .social-media-footer a i{
+        position: relative;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background: #26d0ce;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 3px;
+        transition: all .3s;
+        color: white;
+
+        @media screen and (min-width: $desktop) {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+        }
+    }
+
+
+
+    // recent post area section
+
+    .recent-post-area {
+
+
+        @media screen and (min-width: $tablet){
+            padding-right: 25px;
+            
+        }
+
+        @media screen and (min-width: $desktop) {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    
+
+
+
+    .recent-post-area h6{
+        color: #fff;
+        padding-bottom: 10px;
+        position: relative;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 24px;
+
+
+        @media screen and (min-width: $desktop) {
+            font-size: 24px;
+            padding-bottom: 15px;
+        }
+    }
+
+
+
+
+
+    .recent-post-area h6::after{
+        position: absolute;
+        bottom: -2px;
+        display: block;
+        width: 100%;
+        height: 1px;
+        text-align: justify;
+        content: "";
+        background: linear-gradient(90deg,#26d0ce,#1a2980);
+    }
+
+
+
+
+    .image-area-section {
+        display: flex;
+        margin-top: 10px;
+
+    }
+
+
+
+
+    .image-area img {
+
+        @media screen and (min-width: $desktop) {
+            width: 75px;
+        }
+    }
+    .new-trend-area {
+
+        @media screen and (min-width: $tablet){
+            padding-left: 15px;
+        }
+    }
+
+
+
+    .new-trend-area > a {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: all .25s;
+        background-color: transparent;
+        padding-left: 15px;
+
+
+        @media screen and (min-width: $tablet) {
+            padding-left: 0px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            font-size: 18px;
+            font-weight: 700;   
+        }
+    }
+
+                    // post details area
+
+    .post-details {
+        
+        @media screen and (min-width: $desktop) {
+            padding-top: 10px;
+        }
+    }
+
+
+
+
+    .post-details > a{
+        color: #26d0ce;
+        transition: all .25s;
+        font-weight: 600;
+        font-size: 14px;
+        padding-left: 15px;
+
+        @media screen and (min-width: $tablet) {
+            padding-left: 0px;
+            font-size: 12px;
+            border-right: 1px solid #8f8f8f;
+            padding-right: 5px;
+        }
+
+        @media screen and (min-width: $desktop){
+            font-size: 16px;
+        }
+
+    }
+
+
+
+                // date area 
+
+    .date-area{
+    
+    }
+
+
+
+    .date-area a{
+        color: #8f8f8f;
+        line-height: 12px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        border-left: 2px solid;
+        margin-left: 15px;
+
+        @media screen and (min-width: $tablet) {
+            border: none;
+            margin-left: 0px;
+        }
+
+        @media screen and (min-width: $desktop) {
+            font-size: 14px;
+            margin-top: -18px;
+            position: absolute;
+            margin-left: 90px
+        }
+    }
+
+    hr {
+        color: rgba(255,255,255,.1);
+        border: 1px solid;
+
+    }
+
+
+                        // useful links area
+
+    .useful-links-area {
+        padding-top: 40px;
+
+        @media screen and (min-width: $tablet) {
+            padding: 0;
+        }
+
+        @media screen and (min-width: $desktop) {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+
+
+
+
+    .useful-links-area h5 {
+        color: #fff;
+        position: relative;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 24px;
+        box-sizing: border-box;
+        padding-bottom: 10px;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 24px;
+            padding-bottom: 15px;
+        }
+    }
+
+
+
+    .useful-links-area h5::after {
+        position: absolute;
+        bottom: -2px;
+        display: block;
+        width: 100%;
+        height: 1px;
+        text-align: justify;
+        content: "";
+        background: linear-gradient(90deg,#26d0ce,#1a2980);
+
+    }
+
+
+
+    .useful-links{
+        padding-left: 15px;
+    }
+
+
+
+    .useful-links li {
+        position: relative;
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        padding-left: 20px;
+        color: white;
+
+
+        @media screen and (min-width: $desktop) {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+
+
+
+    .useful-links a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        line-height: 1.5em;
+
+        @media screen and (min-width: $desktop) {
+            font-size: 20px;
+            padding-left: 20px; 
+        }
+    }
+
+
+
+    .useful-links a::before{
+        position: absolute;
+        left: 0;
+        top: 7px;
+        height: 7px;
+        width: 7px;
+        background: #26d0ce;
+        border-radius: 50%;
+        content: '';
+
+        @media screen and (min-width: $desktop) {
+            height: 10px;
+            width: 10px;
+        }
+    }
+
+
+                    // media gallery section area 
+
+    .media-gallery {
+
+
+        @media screen and (min-width: $desktop) {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+
+
+
+
+    .media-gallery h5 {
+        color: #fff;
+        position: relative;
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 24px;
+        font-size: 20px;
+
+
+        @media screen and (min-width: $desktop) {
+            padding-right: 15px;
+            padding-left: 15px;
+            font-size: 24px;
+            padding-bottom: 15px;
+        }
+    }
+
+
+
+    .media-gallery h5::after{
+            position: absolute;
+            bottom: -2px;
+            display: block;
+            width: 100%;
+            height: 1px;
+            text-align: justify;
+            content: "";
+            background: linear-gradient(90deg,#26d0ce,#1a2980);
+
+    }
+
+
+                    // gallery items area 
+
+
+    .gallery-items-landscape {
+        display: flex;
+        overflow: auto;
+        padding-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        grid-gap: 1px;
+    }
+
+
+
+    .gallery-items-landscape img {
+        width: 110px    ;
+        height: auto;
+
+        @media screen and (min-width: $tablet){
+            width: 55px;
+            height: auto;
+        }
+
+
+        @media screen and (min-width: $desktop) {
+            height: 120px;
+            width: 120px;
+            font-weight: 900;
+
+        }
+    
+    }
+
+
+                // final footer area section
+
+    .final-footer {
+        background: #26272c;
+        color: #fff;
+        padding: none;
+    }
+
+
+
+    .final-footer-social-icons {
+        padding-top: 5px;
+
+
+        @media screen and (min-width: $desktop) {
+            float: right;
+            padding-right: 115px;
+            padding-top: 20px;
+        }
+    }
+
+
+
+                    // final footer socila icons section 
+
+
+
+    .final-footer-social-icons > a {
+        display: inline-block;
+        margin-right: 18px;
+        font-size: 16px;
+        line-height: 32px;
+        color: #a1a1a1;
+        text-decoration: none;
+
+
+        @media screen and (min-width: $desktop) {
+            font-size: 20px;
+        }
+    }
+
+
+
+    .final-footer-social-icons a i {
+        padding-top: 10px;
+        padding-left: 15px;
+        
+    }
+
+                        // template and text area 
+
+    .template-text-area{
+        padding-bottom: 15px;
+        padding-top: 10px;
+
+        @media screen and (min-width: $desktop) {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+
+
+
+    .template-text-area h5{
+        color: #8f8f8f;
+        transition: all .25s;
+        font-weight: 600;
+        padding-left: 0.9375rem;
+        text-transform: capitalize;
+        font-size: 12px;
+        line-height: 15px;
+
+
+        @media screen and (min-width: $desktop) {
+            font-size: 16px;
+            line-height: 20px;
+            padding-left: 110px;
+            font-weight: 500;
+            text-transform: none;
+            padding-bottom: 15px;
+        }
+    }   
+
+
+
+    .template-text-area a {
+    color: #26d0ce;
+    
+    }
+
+    
 }

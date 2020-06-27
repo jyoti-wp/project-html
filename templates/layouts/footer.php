@@ -1,30 +1,15 @@
 <footer>
-<div class="footer">
-    <div class="wrapper">
-        <div class="widget-text-area">
-            <div class="text-area">
-                template by
-                <a href="http://www.themeforest.net/user/themeexpo">ThemeExpo</a>
-                All rights reserved
-            </div>
-            <div class="social-media-footer">
-                <a href="https://web.facebook.com/" class="" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="https://twitter.com/" class="" target="_blank">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a href="https://instagram.com/" class="" target="_blank">
-                    <i class="fa fa-instagram"></i>
-                </a>
-                <a href="https://pinterest.com/" class="" target="_blank">
-                    <i class="fa fa-pinterest"></i>
-                </a>
-                <a href="https://web.youtube.com/" class="" target="_blank">
-                <i class="fa fa-youtube"></i>
-                </a>
+    <div class="footer">
+        <div class="main-footer">
+            <div class="wrapper">
+                <div class="footer-area-grid">
+                    <?php include_once 'templates/layouts/components/widget-text-area.php'?>
+                    <?php include_once 'templates/layouts/components/recent-area.php'?>
+                    <?php include_once 'templates/layouts/components/useful-links-area.php'?>
+                    <?php include_once 'templates/layouts/components/media-gallery.php'?>  
+                </div>
             </div>
         </div>
-    </div>
-</div>
+        <?php include_once 'templates/layouts/components/final-footer.php'?>
+    </div>    
 </footer>

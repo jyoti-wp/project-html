@@ -1,0 +1,111 @@
+.portfolio {
+                // mobile view
+    .portfolio {
+
+    }
+
+    .portfolio-items {
+        margin-top: -50px;
+        padding-top: 100px;
+
+        @media screen and (min-width: $tablet) {
+            
+        }
+    }
+
+    .portfolio-item-thumbnail {
+        width: 100%;
+    }
+
+    .image-area-thumbnail-section {
+        width: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+
+        @media screen and (min-width: $tablet) {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+    }
+
+    img {
+        object-fit: cover;
+
+        @media screen and (min-width: $tablet) {
+            width: 100%;
+        }
+    }
+
+    .image-section-one img {
+        width: 375px;
+        height: 750px;
+
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 384px;
+        }
+    }
+
+
+    .image-section-two img {
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 192px;
+        }
+    }
+
+
+    .image-section-three img {
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 192px;
+        }
+    }
+
+    .image-section-four img {
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 192px;
+        }
+    }
+
+    .image-section-five img{
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 192px;
+            height: 192px;
+        }
+    }
+
+    .image-section-six img{
+        width: 375px;
+        height: 375px;
+
+        @media screen and (min-width: $tablet) {
+            width: 384px;
+            height: 384px;
+        }
+    }
+
+    .image-section-seven img{
+        width: 375px;
+        height: 190px;
+
+        @media screen and (min-width: $tablet) {
+            width: 384px;
+            height: 192px;
+        }
+    }
+}

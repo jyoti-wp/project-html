@@ -3,9 +3,20 @@
  */
 
 // Settings
+@import "settings/foundation";
 @import "settings/reset";
+@import "settings/typography";
 @import "settings/variable";
 @import 'settings/colors';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/home/our-services';
+@import 'common/general';
+@import 'components/home/get-in-touch';
+@import 'components/home/map-section';
+@import 'components/home/contact-us-section';
+@import 'components/home/client-section';
+@import 'components/home/latest-update-section';
+@import 'components/home/about-us-section';
+@import 'components/home/likes-section';
+@import 'components/home/main-image-area';

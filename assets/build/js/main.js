@@ -86,6 +86,45 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/js/carousel/index.js":
+/*!**********************************!*\
+  !*** ./src/js/carousel/index.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function ($) {
+  $(document).ready(function () {
+    // Slider bottom.
+    $('.image-container').slick({
+      dots: true,
+      autoplay: false,
+      infinite: true,
+      speed: 100,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }); // Banner slider.
+
+    $('.banner-slider-wrap').slick({
+      dots: true,
+      infinite: true,
+      speed: 100,
+      slidesToShow: 1,
+      autoplay: false,
+      arrows: true
+    }); // latest news slider
+
+    $('.latest-update-image-area').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      arrows: true
+    });
+  });
+})(jQuery);
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
@@ -97,7 +136,10 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ "./src/scss/main.scss");
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_main_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./carousel */ "./src/js/carousel/index.js");
+/* harmony import */ var _carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_carousel__WEBPACK_IMPORTED_MODULE_1__);
 console.warn('Hello');
+
 
 
 /***/ }),
@@ -107,9 +149,9 @@ console.warn('Hello');
   !*** ./src/scss/main.scss ***!
   \****************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\n\n\t}\n ^\n      Invalid CSS after \"\t}\": expected selector or at-rule, was \"}\"\n      in /Applications/MAMP/htdocs/project-html/assets/src/scss/components/_header.scss (line 29, column 3)\n    at runLoaders (/Applications/MAMP/htdocs/project-html/assets/node_modules/webpack/lib/NormalModule.js:316:20)\n    at /Applications/MAMP/htdocs/project-html/assets/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /Applications/MAMP/htdocs/project-html/assets/node_modules/loader-runner/lib/LoaderRunner.js:233:18\n    at context.callback (/Applications/MAMP/htdocs/project-html/assets/node_modules/loader-runner/lib/LoaderRunner.js:111:13)\n    at Object.render [as callback] (/Applications/MAMP/htdocs/project-html/assets/node_modules/sass-loader/dist/index.js:89:7)\n    at Object.done [as callback] (/Applications/MAMP/htdocs/project-html/assets/node_modules/neo-async/async.js:8067:18)\n    at options.error (/Applications/MAMP/htdocs/project-html/assets/node_modules/node-sass/lib/index.js:294:32)");
+// extracted by mini-css-extract-plugin
 
 /***/ })
 
