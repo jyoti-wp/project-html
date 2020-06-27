@@ -21,7 +21,7 @@ header {
 		width: 100vw;
 		overflow: hidden;
 		z-index: 1;
-		box-shadow: 0 0 29px rgba(26,41,128,.4);
+		box-shadow: 0 0 29px rgba(26,41,128,0.4);
 
 		@media screen and (min-width: $desktop) {
 			box-shadow: none;
@@ -69,10 +69,10 @@ header {
 	}
 
 	.nav-wrap {
-	display: none;
-	position: relative;
+		display: none;
+		position: relative;
 
-	@media screen and (min-width: $desktop) {
+		@media screen and (min-width: $desktop) {
 			display: flex;
 			position: static;
 			padding-top: 20px;
@@ -89,7 +89,7 @@ header {
 			z-index: 1;
 			font-weight: 500;
 			font-size: 20px;
-    		padding: 19px 20px 19px 10px;
+			padding: 19px 20px 19px 10px;
 			text-decoration: none;
 			list-style: none;
 			text-transform: capitalize;
@@ -112,7 +112,7 @@ header {
 		height: 40px;
 		line-height: 40px;
 		border-radius: 50px;
-		box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 		background: #26d0ce;
 		color: #fff;
 		font-size: 18px;
